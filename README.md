@@ -99,5 +99,5 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 <br />
 
 <div align="center">
-  <p>Feito com ❤️ por <strong>Tensho</strong>.</p>
+  <p>Feito com ❤️ por <strong><a href="https://x.com/otenshy">Tensho</a></strong></p>
 </div>
