@@ -38,8 +38,8 @@ Deseja elevar o nível das suas Legendas? A versão **Exclusive** automatiza efe
 ---
 
 ## Links Úteis
-> [**Aegisub-Modified**](https://github.com/arch1t3cht/Aegisub/releases/tag/feature_12) : versão com suporte para criar pastas e organizar as linhas criadas pelo scrit + tema escuro.
-> [**YTSubConverter**](https://github.com/arcusmaximus/YTSubConverter) : Conversor para .ytt (formato de upload no YouTUbe).
+* [**Aegisub-Modified**](https://github.com/arch1t3cht/Aegisub/releases/tag/feature_12) : versão com suporte para criar pastas e organizar as linhas criadas pelo scrit + tema escuro.
+* [**YTSubConverter**](https://github.com/arcusmaximus/YTSubConverter) : Conversor para .ytt (formato de upload no YouTUbe).
 
 ---
 
