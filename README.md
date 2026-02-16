@@ -40,8 +40,8 @@
 Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efeitos complexos que antes só seriam possíveis em softwares de edição de vídeo pesados.
 
 * 🌊 **Rainbow Wave:** Onda cromática dinâmica com fatiamento milimétrico de 5ms.
-* 📈 **Curves:** Suavização de movimento baseada em Curvas de Bézier Cúbicas (Flow AE style).
-* 🎵 **Reverse Karaoke:** Sistema de sumiço de sílabas por camadas (anti-bug YouTube).
+* 📈 **Curves:** Suavização de movimento baseada em Curvas de Bézier.
+* 🎵 **Reverse Karaoke:** Sistema de sumiço de sílabas por camadas.
 
 👉 **[Adquira a versão Exclusive no meu Cardd](https://seulinkaqui.cardd.co)**
 
