@@ -12,10 +12,6 @@
 <h1 id="-português"></h1>
 
 <div align="center">
-  <br />
-  <img src="assets/logo_tensho.png" alt="TenshoScript Logo" width="150">
-  <br />
-
   <h1>TenshoScript <span style="font-size: 0.5em; opacity: 0.6;">v1.0</span></h1>
 
   <p>
@@ -30,8 +26,8 @@
 
   <br />
 
-  <a href="https://github.com/yujifkw/TenshoScripts-Free/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/⬇️%20BAIXAR%20VERSÃO%20FREE-TenshoScript_Free.zip-success?style=for-the-badge&logo=lua" height="50">
+  <a href="../../releases">
+    <img src="https://img.shields.io/badge/⬇️%20BAIXAR%20AGORA-PÁGINA%20DE%20RELEASES-success?style=for-the-badge&logo=lua" height="50">
   </a>
   
   <br />
@@ -71,14 +67,24 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="50%">
-        <strong>Glitch Inteligente</strong><br>
-        <img src="assets/glitch_preview.gif" width="100%" alt="Glitch Preview">
-      </td>
-      <td align="center" width="50%">
-        <strong>Curves (Bézier)</strong><br>
-        <img src="assets/curves_preview.gif" width="100%" alt="Curves Preview">
-      </td>
+      <td align="center" width="50%"><strong>1. Fadeworks Adaptado</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Glitch Dinâmico</strong><br><img src="assets/glitch.gif" width="100%"></td>
+    </tr>
+    <tr>
+      <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>4. Gradient</strong><br><img src="assets/gradient.gif" width="100%"></td>
+    </tr>
+    <tr>
+      <td align="center" width="50%"><strong>5. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>6. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
+    </tr>
+    <tr>
+      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>8. Rainbow Wave (Exclusive)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+    </tr>
+    <tr>
+      <td align="center" width="50%"><strong>9. Curves (Exclusive)</strong><br><img src="assets/curves.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>10. Reverse Karaoke (Exclusive)</strong><br><img src="assets/reversek.gif" width="100%"></td>
     </tr>
   </table>
 </div>
@@ -87,10 +93,10 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 
 ## 🚀 Como Instalar
 
-1.  Baixe o arquivo `TenshoScript_v0.0.9.lua`.
-2.  Acesse a pasta: Pressione `Win+R` -> digite `%APPDATA%\Aegisub`.
-3.  Coloque o arquivo na pasta `automation/autoload`.
-4.  No Aegisub, acesse pelo menu `Automação -> -TenshoScript`.
+1. Baixe a versão mais recente do script na página de [**Releases**](../../releases).
+2. Acesse a pasta do Aegisub: Pressione `Win+R` -> digite `%APPDATA%\Aegisub`.
+3. Coloque o arquivo `.lua` dentro da pasta `automation/autoload`.
+4. No Aegisub, acesse pelo menu `Automação -> -TenshoScript`.
 
 ---
 
@@ -106,66 +112,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais detalhes.
 
 <br />
-<br />
-<hr />
-<br />
-<br />
-
-<h1 id="-english"></h1>
 
 <div align="center">
-  <br />
-  <img src="assets/logo_tensho.png" alt="TenshoScript Logo" width="150">
-  <br />
-
-  <h1>TenshoScript <span style="font-size: 0.5em; opacity: 0.6;">v1.0</span></h1>
-
-  <p>
-    The essential automation toolkit for Aegisub, optimized for <strong>Nerdcore</strong> and <strong>AMV</strong> subbing.
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/STATUS-STABLE-success?style=for-the-badge" alt="Status">
-    <img src="https://img.shields.io/badge/PLATFORM-AEGISUB-purple?style=for-the-badge" alt="Aegisub">
-    <img src="https://img.shields.io/badge/LICENSE-MIT-yellow?style=for-the-badge" alt="MIT License">
-  </p>
-
-  <br />
-
-  <a href="https://github.com/yujifkw/TenshoScripts-Free/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/⬇️%20DOWNLOAD%20FREE%20VERSION-TenshoScript_Free.zip-success?style=for-the-badge&logo=lua" height="50">
-  </a>
-  
-  <br />
-  <br />
-</div>
-
----
-
-## ✨ Features (Free)
-
-| Tool | Description |
-| :--- | :--- |
-| **Adapted Fadeworks** | Apply normal, alpha/color, or letter-by-letter fades. |
-| **Glitch** | Dynamic chromatic aberration with Style-based auto-color support. |
-| **Flashes** | Rhythmic color alternation for visual impact. |
-| **Gradient** | Letter-by-letter horizontal gradients with up to 5 colors. |
-| **Split Lines** | Break lines into individual character or word layers. |
-| **FixLines** | Quick `\an5` positioning (Top, Middle, Bottom). |
-| **YtktFade** | Classic YouTube Karaoke with customizable transparency. |
-
----
-
-## 💎 TenshoScript Exclusive (Paid)
-
-* 🌊 **Rainbow Wave:** Dynamic color wave with 5ms precision.
-* 📈 **Curves:** Cubic Bezier easing for movements (Flow style).
-* 🎵 **Reverse Karaoke:** Layered syllable disappearance system.
-
-👉 **[Get Exclusive Version on my Cardd](https://seulinkaqui.cardd.co)**
-
----
-
-<div align="center">
-  <p>Made with ☕ by <strong>Tensho</strong>.</p>
+  <p>Feito com ❤️ por <strong>Tensho</strong>.</p>
 </div>
