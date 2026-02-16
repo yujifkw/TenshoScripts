@@ -1,3 +1,5 @@
+<h1 id="-português"></h1>
+
 <div align="left">
   <a href="#-english">
     <img src="https://img.shields.io/badge/Lang-English-blue?style=for-the-badge&logo=united-kingdom" alt="English">
@@ -111,20 +113,11 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 </div>
 
 <div align="left">
-  <br />
-  <img src="assets/logo_tensho.png" alt="TenshoScript Logo" width="150">
-  <br />
 
-  <h1>TenshoScripts <span style="font-size: 0.5em; opacity: 0.6;">v1.0</span></h1>
+  <h1>TenshoScripts</h1>
 
   <p>
     <strong>TenshoScript</strong> is an essential automation toolkit for Aegisub, specifically developed for the <strong>Nerdcore</strong> and <strong>AMV</strong> scene. This version focuses on fundamental tools to streamline the subtitle workflow for YouTube.
-  </p>
-  
-  <p>
-    <img src="https://img.shields.io/badge/STATUS-STABLE-success?style=for-the-badge" alt="Status Stable">
-    <img src="https://img.shields.io/badge/PLATFORM-AEGISUB-purple?style=for-the-badge" alt="Aegisub">
-    <img src="https://img.shields.io/badge/LICENSE-MIT-yellow?style=for-the-badge" alt="MIT License">
   </p>
   
   <br />
@@ -156,10 +149,10 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 Want to level up your subtitles? The **Exclusive** version automates complex effects that were previously only possible in heavy video editing software.
 
 * 🌊 **Rainbow Wave:** Dynamic chromatic wave with 5ms precision slicing.
-* 📈 **Curves:** Movement easing based on Cubic Bezier Curves (Flow AE style).
-* 🎵 **Reverse Karaoke:** Layered syllable disappearance system (YouTube anti-bug).
+* 📈 **Curves:** Movement easing based on Cubic Bezier Curves.
+* 🎵 **Reverse Karaoke:** Layered syllable disappearance system.
 
-👉 **[Get the Exclusive version on my Ko-fi/Cardd](https://seulinkaqui.cardd.co)**
+👉 **[Get the Exclusive version on my Ko-fi](https://seulinkaqui.cardd.co)**
 
 ---
 
