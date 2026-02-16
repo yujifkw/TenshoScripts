@@ -87,7 +87,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 
 ## 🔗 Links Úteis
 
-* [**Aegisub-Modified**](https://github.com/arch1t3cht/Aegisub/releases/tag/feature_12): Versão com suporte a **Pastas [Actor]**, organização de linhas e tema escuro.
+* [**Aegisub-Modified**](https://github.com/arch1t3cht/Aegisub/releases/tag/feature_12): Versão com suporte a **Pastas** (organização de linhas) e tema escuro.
 * [**YTSubConverter**](https://github.com/arcusmaximus/YTSubConverter): Conversor essencial para o formato `.ytt` (YouTube).
 
 ---
