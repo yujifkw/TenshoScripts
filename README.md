@@ -5,7 +5,7 @@
 </div>
 
 <div align="left">
-  <h1>TenshoScript</h1>
+  <h1>TenshoScripts</h1>
 
   <p>
     O <strong>TenshoScript</strong> é um toolkit essencial de automação para Aegisub, desenvolvido especificamente para legendas da cena <strong>Nerdcore</strong> e <strong>AMVs</strong>. Esta versão foca em ferramentas fundamentais para agilizar o workflow de legendas para YouTube.
