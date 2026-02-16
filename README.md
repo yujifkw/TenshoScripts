@@ -1,17 +1,16 @@
-<div align="center">
+<div align="left">
   <a href="#-português">
     <img src="https://img.shields.io/badge/Lang-Português-green?style=for-the-badge&logo=brazil" alt="Português">
   </a>
+  <br />
   <a href="#-english">
     <img src="https://img.shields.io/badge/Lang-English-blue?style=for-the-badge&logo=united-kingdom" alt="English">
   </a>
 </div>
 
-<br />
-
 <h1 id="-português"></h1>
 
-<div align="center">
+<div align="left">
   <h1>TenshoScript <span style="font-size: 0.5em; opacity: 0.6;">v1.0</span></h1>
 
   <p>
