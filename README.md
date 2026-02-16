@@ -35,7 +35,11 @@ Deseja elevar o nível das suas Legendas? A versão **Exclusive** automatiza efe
 3.  Coloque-o na pasta `automation/autoload` do seu Aegisub.
 4.  Acesse pelo menu `Automação -> -TenshoScript`.
 
-Recomendação: Usar o [**Aegisub-Modified**](https://github.com/arch1t3cht/Aegisub/releases/tag/feature_12) (versão com suporte para criar pastas e organizar as linhas criadas pelo scrit + tema escuro)
+---
+
+## Links Úteis
+> [**Aegisub-Modified**](https://github.com/arch1t3cht/Aegisub/releases/tag/feature_12) : versão com suporte para criar pastas e organizar as linhas criadas pelo scrit + tema escuro.
+> [**YTSubConverter**](https://github.com/arcusmaximus/YTSubConverter) : Conversor para .ytt (formato de upload no YouTUbe).
 
 ---
 
