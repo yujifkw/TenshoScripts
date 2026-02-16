@@ -1,36 +1,22 @@
 <div align="left">
-  <a href="#-português">
-    <img src="https://img.shields.io/badge/Lang-Português-green?style=for-the-badge&logo=brazil" alt="Português">
-  </a>
-  <br />
   <a href="#-english">
     <img src="https://img.shields.io/badge/Lang-English-blue?style=for-the-badge&logo=united-kingdom" alt="English">
   </a>
 </div>
 
-<h1 id="-português"></h1>
-
 <div align="left">
   <h1>TenshoScript <span style="font-size: 0.5em; opacity: 0.6;">v1.0</span></h1>
 
   <p>
-    O toolkit essencial de automação para Aegisub, otimizado para a cena <strong>Nerdcore</strong> e <strong>AMVs</strong>.
+    O <strong>TenshoScript</strong> é um toolkit essencial de automação para Aegisub, desenvolvido especificamente para legendas da cena <strong>Nerdcore</strong> e <strong>AMVs</strong>. Esta versão foca em ferramentas fundamentais para agilizar o workflow de legendas para YouTube.
   </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/STATUS-ESTÁVEL-success?style=for-the-badge" alt="Status Stable">
-    <img src="https://img.shields.io/badge/PLATFORM-AEGISUB-purple?style=for-the-badge" alt="Aegisub">
-    <img src="https://img.shields.io/badge/LICENSE-MIT-yellow?style=for-the-badge" alt="MIT License">
-  </p>
-
+  
   <br />
 
   <a href="../../releases">
     <img src="https://img.shields.io/badge/⬇️%20BAIXAR%20AGORA-PÁGINA%20DE%20RELEASES-success?style=for-the-badge&logo=lua" height="50">
   </a>
   
-  <br />
-  <br />
 </div>
 
 ---
