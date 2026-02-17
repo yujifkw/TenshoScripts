@@ -131,6 +131,9 @@ Substitui o movimento linear do `\move` por curvas de aceleração e desacelera�
 ## 10. Reverse Karaoke (Exclusive)
 Inverte a lógica do karaokê comum: o texto começa visível e desaparece conforme a música toca.
 
+### Como Usar:
+Faça a divisão de sílabas padrão na linha (`\k`) e depois execute a automação.
+
 ### Diferencial Técnico:
 Diferente de macros simples que apenas aplicam alpha, o TenshoScripts utiliza um sistema de fatiamento por camadas sincronizadas. Isso evita o bug de cintilação (*flicker*) do YouTube, garantindo uma renderização estável em qualquer dispositivo.
 
@@ -273,6 +276,9 @@ Replaces linear `\move` motion with professional acceleration and deceleration c
 
 ## 10. Reverse Karaoke (Exclusive)
 Inverts standard karaoke logic: text starts visible and disappears as the music plays.
+
+### How to use:
+Perform the standard syllable division on the line (`\k`) and then run the automation.
 
 ### Technical Advantage:
 Unlike simple macros that only apply alpha, TenshoScripts uses a synchronized layer slicing system. This prevents the YouTube **flicker bug**, ensuring stable rendering on any device.
