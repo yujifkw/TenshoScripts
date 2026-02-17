@@ -57,7 +57,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
   <table>
     <tr>
       <td align="center" width="50%"><strong>1. Fadeworks Adaptado</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>2. Gradiente Fácil</strong><br><img src="assets/gradient.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Gradiente Fácil</strong><br><img src="assets/gradient2.gif" width="100%"></td>
     </tr>
     <tr>
       <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
@@ -167,7 +167,7 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
   <table>
     <tr>
       <td align="center" width="50%"><strong>1. Adapted Fadeworks</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>2. Easy Gradient</strong><br><img src="assets/gradient.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Easy Gradient</strong><br><img src="assets/gradient2.gif" width="100%"></td>
     </tr>
     <tr>
       <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
