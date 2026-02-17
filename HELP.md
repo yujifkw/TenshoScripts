@@ -27,7 +27,7 @@ Aplica transições de visibilidade complexas de forma simplificada, unindo Alph
 ---
 
 ## 2. Flashes
-Ideal para sincronizar o impacto visual com a batida da música (*kicks* e *snares*).
+Ideal para sincronizar o impacto visual com a batida da música.
 
 ![GUI Flashes](assets/gui_flashes.png)
 
@@ -38,7 +38,7 @@ Ideal para sincronizar o impacto visual com a batida da música (*kicks* e *snar
 
 ---
 
-## 3. Gradient (Multi-Ponto)
+## 3. Easy Gradient (Multi-Ponto)
 Gera gradientes letra por letra com até 5 cores chave e interpolação avançada.
 
 ![GUI Gradient](assets/gui_gradient.png)
@@ -51,9 +51,9 @@ Gera gradientes letra por letra com até 5 cores chave e interpolação avançad
 ---
 
 ## 4. Split Lines
-Divide frases em camadas individuais. Fundamental para preparar textos para Motion Graphics.
+Divide frases em camadas individuais.
 
-![GUI Split](assets/gui_split.png)
+![GUI Split](assets/gui_splitlines.png)
 
 ### Funcionalidades:
 * **Modos:** Dividir por **Caractere** ou por **Palavra**.
@@ -68,16 +68,15 @@ Ferramenta de padronização de posição baseada em cálculos proporcionais.
 ![GUI FixLines](assets/gui_fixlines.png)
 
 ### Funcionalidades:
-* **Botões Rápidos:** Posicionamento instantâneo em **Topo**, **Meio** ou **Baixo**.
+* **Botões Rápidos:** Posicionamento instantâneo em **Topo** ou **Baixo**.
 * **Resolução Inteligente:** Detecta automaticamente a `PlayRes` do vídeo e ajusta as coordenadas para que fiquem idênticas em qualquer resolução (ex: 720p ou 1080p).
-* **Preservação de Glitch:** Se aplicado em uma linha que já tem deslocamento horizontal (Glitch), o script altera apenas o eixo Y, mantendo o efeito intacto.
 
 ---
 
 ## 6. YtktFade
 Aplica o estilo de karaokê invisível otimizado para o renderizador do YouTube.
 
-![GUI Ytkt](assets/gui_ytkt.png)
+![GUI Ytkt](assets/gui_ytktfade.png)
 
 ### Parâmetros:
 * **Ativar \2c:** Define uma cor de preenchimento específica para o momento em que a sílaba é cantada, garantindo maior legibilidade no player do YouTube.
@@ -107,14 +106,15 @@ Cria uma onda de cores arco-íris que flui pelo texto através de fatiamento tem
 
 ---
 
-## 9. Curves (Exclusive)
+## 9. Curves (Exclusive) - BETA
 Substitui o movimento linear do `\move` por curvas de aceleração e desaceleração (Easing).
 
 ![GUI Curves](assets/gui_curves.png)
+![GUI Curves ADV](assets/gui_curves_adv.png)
 
 ### Parâmetros:
 * **Ease Modes:** Presets clássicos como *Quad, Cubic* e *Linear*.
-* **Controle de Bézier (Avançado):** Editor de curvas estilo "Flow" ou After Effects, permitindo configurar os pontos de influência para movimentos totalmente personalizados.
+* **Controle de Bézier (Avançado):** Editor de curvas estilo "Flow", permitindo configurar os pontos de influência para movimentos totalmente personalizados.
 
 ---
 
