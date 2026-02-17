@@ -36,8 +36,20 @@ Aplica transições de visibilidade complexas de forma simplificada, unindo Alph
 ## 2. Gradiente Fácil (Multi-Ponto)
 Gera gradientes letra por letra com até 5 cores chave e interpolação avançada, ou automaticamente pelos estilos.
 
-![GUI Gradient](assets/gui_gradient2.png)
-![GUI Gradient](assets/gui_gradient_styles.png)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Easy Gradient (Multi-Ponto)</strong><br>
+        <img src="assets/gui_gradient2.png" alt="GUI Gradient">
+      </td>
+      <td align="center" width="50%">
+        <strong>Gradient: Style Transition</strong><br>
+        <img src="assets/gui_gradient_styles.png" alt="GUI Gradient Styles">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Parâmetros:
 * **Interpolar HSL:** Transita as cores pelo espectro de Matiz, Saturação e Luminosidade, resultando em cores muito mais vivas que o modo RGB.
@@ -153,8 +165,20 @@ Diferente de macros simples que apenas aplicam alpha, o TenshoScripts utiliza um
 ## 12. Curves (Pago) - BETA
 Substitui o movimento linear do `\move` por curvas de aceleração e desaceleração (Easing).
 
-![GUI Curves](assets/gui_curves.png)
-![GUI Curves ADV](assets/gui_curves_adv.png)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Curves (Presets Beta)</strong><br>
+        <img src="assets/gui_curves.png" alt="GUI Curves">
+      </td>
+      <td align="center" width="50%">
+        <strong>Curves: Advanced Bézier Editor</strong><br>
+        <img src="assets/gui_curves_adv.png" alt="GUI Curves Advanced">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Parâmetros:
 * **Ease Modes:** Presets clássicos como *Quad, Cubic* e *Linear*.
