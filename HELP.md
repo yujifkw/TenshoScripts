@@ -1,12 +1,11 @@
+<h1 id="-português"></h1>
 <div align="left">
   <a href="#-english">
     <img src="https://img.shields.io/badge/Lang-English-blue?style=for-the-badge&logo=united-kingdom" alt="English">
   </a>
 </div>
 
-<br />
-
-<h1 id="-português">🐉 Documentação Oficial: TenshoScripts v1.0.0</h1>
+# 🐉 Documentação Oficial: TenshoScripts v1.0.0
 
 Bem-vindo à documentação técnica do **TenshoScripts**. Este toolkit foi projetado para levar o Aegisub ao limite, focando em automações de Motion Graphics para a cena **Nerdcore** e **AMVs**, resolvendo limitações históricas de outros scripts.
 
@@ -141,10 +140,12 @@ Desenvolvido por [Tensho](https://x.com/otenshy). Licença MIT.
 <br />
 <br />
 
+<h1 id="-english"></h1>
 <a href="#-português">
     <img src="https://img.shields.io/badge/Lang-Português-green?style=for-the-badge&logo=brazil" alt="Português">
   </a>
-<h1 id="-english">🐉 Official Documentation: TenshoScripts v1.0.0</h1>
+  
+# 🐉 Official Documentation: TenshoScripts v1.0.0
 
 Welcome to the technical documentation for **TenshoScripts**. This toolkit was designed to push Aegisub to its limits, focusing on Motion Graphics automation for the **Nerdcore** and **AMV** scene, solving historical limitations found in other scripts.
 
