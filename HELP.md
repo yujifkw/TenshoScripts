@@ -45,15 +45,18 @@ Ideal para sincronizar o impacto visual com a batida da música.
 
 ---
 
-## 3. Easy Gradient (Multi-Ponto)
-Gera gradientes letra por letra com até 5 cores chave e interpolação avançada.
+## 3. Gradiente Fácil (Multi-Ponto)
+Gera gradientes letra por letra com até 5 cores chave e interpolação avançada, ou automaticamente pelos estilos.
 
-![GUI Gradient](assets/gui_gradient.png)
+![GUI Gradient](assets/gui_gradient2.png)
+![GUI Gradient](assets/gui_gradient_styles.png)
 
 ### Parâmetros:
 * **Interpolar HSL:** Transita as cores pelo espectro de Matiz, Saturação e Luminosidade, resultando em cores muito mais vivas que o modo RGB.
 * **Cores Chave (1-5):** Define os pontos de transição. Ative as cores intermediárias para gradientes complexos.
 * **Checkboxes Target:** Permite aplicar o gradiente seletivamente apenas em tags específicas (`\c`, `\3c` ou `\4c`).
+* **Estilos (A, B, C):** O script lê automaticamente todos os estilos do seu arquivo. Você pode definir uma transição linear (A -> B) ou uma transição em três pontos (A -> C -> B).
+* **Interpolação Completa:** Além das cores, você pode transitar tamanhos (`\fs`), criando efeitos de perspectiva ou crescimento orgânico do texto.
 
 ---
 
@@ -188,12 +191,15 @@ Ideal for syncing visual impact with the music beat.
 ## 3. Easy Gradient (Multi-Point)
 Generates letter-by-letter gradients with up to 5 key colors and advanced interpolation.
 
-![GUI Gradient](assets/gui_gradient.png)
+![GUI Gradient](assets/gui_gradient2.png)
+![GUI Gradient](assets/gui_gradient_styles.png)
 
 ### Parameters:
 * **HSL Interpolation:** Transitions colors through the Hue, Saturation, and Lightness spectrum, resulting in much more vibrant colors than standard RGB mode.
 * **Key Colors (1-5):** Defines transition points. Enable intermediate colors for complex gradients.
 * **Target Checkboxes:** Allows selective gradient application to specific tags (`\c`, `\3c`, or `\4c`).
+* **Styles (A, B, C):** The script automatically reads all styles in your file. You can set a linear transition (A -> B) or a three-point transition (A -> C -> B).
+* **Full Interpolation:** Beyond colors, you can transition sizes (`\fs`), creating perspective or organic text growth effects.
 
 ---
 
