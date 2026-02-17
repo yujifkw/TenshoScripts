@@ -29,7 +29,7 @@
 | :--- | :--- |
 | **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra (`LTR`, `RTL`, `Meio->Fora`, `Fora->Meio`). |
 | **Flashes** | Alternância rítmica de cores para impacto visual na batida. |
-| **Gradient** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave. |
+| **Gradiente Fácil** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave. |
 | **Split Lines** | Divide frases em camadas individuais por caractere ou palavra. |
 | **FixLines** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
 | **YtktFade** | O clássico karaokê do YouTube com cor configurável (`\2c`). |
@@ -55,7 +55,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
   <table>
     <tr>
       <td align="center" width="50%"><strong>1. Fadeworks Adaptado</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>2. Gradiente</strong><br><img src="assets/gradient.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Gradiente Fácil</strong><br><img src="assets/gradient.gif" width="100%"></td>
     </tr>
     <tr>
       <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
@@ -137,7 +137,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 | :--- | :--- |
 | **Adapted Fadeworks** | Applies normal fades (in/out), via alpha/color, or letter-by-letter (`LTR`, `RTL`, `Middle->Out`, `Out->Middle`). |
 | **Flashes** | Rhythmic color alternation for visual impact synced to the beat. |
-| **Gradient** | Horizontal gradients automatically calculated letter-by-letter using up to 5 key colors. |
+| **Easy Gradient** | Horizontal gradients automatically calculated letter-by-letter using up to 5 key colors. |
 | **Split Lines** | Divides sentences into individual character or word layers. |
 | **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom screen placement. |
 | **YtktFade** | The classic YouTube-style karaoke with configurable color (`\2c`). |
@@ -163,7 +163,7 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
   <table>
     <tr>
       <td align="center" width="50%"><strong>1. Adapted Fadeworks</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>2. Gradient</strong><br><img src="assets/gradient.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Easy Gradient</strong><br><img src="assets/gradient.gif" width="100%"></td>
     </tr>
     <tr>
       <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
