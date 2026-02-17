@@ -32,7 +32,7 @@
 | **Gradiente Fácil** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave. |
 | **Split Lines** | Divide frases em camadas individuais por caractere ou palavra. |
 | **FixLines** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
-| **YtktFade** | O clássico karaokê do YouTube com cor configurável (`\2c`). |
+| **YtktFade** | Aplique o karaokê invisível do YouTube com cor configurável (`\2c`) a multiplas linhas ao mesmo tempo. |
 
 ---
 
@@ -140,7 +140,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 | **Easy Gradient** | Horizontal gradients automatically calculated letter-by-letter using up to 5 key colors. |
 | **Split Lines** | Divides sentences into individual character or word layers. |
 | **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom screen placement. |
-| **YtktFade** | The classic YouTube-style karaoke with configurable color (`\2c`). |
+| **YtktFade** | Apply the invisible YouTube karaoke effect with configurable color (`\2c`) to multiple lines at the same time. |
 
 ---
 
