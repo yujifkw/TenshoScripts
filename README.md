@@ -46,8 +46,8 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 
 * 📺 **Glitch:** Aberração cromática dinâmica com suporte de cores automáticas baseadas no Estilo e na posição relativa da linha.
 * 🌊 **Rainbow Wave:** Onda cromática dinâmica com fatiamento milimétrico de 5ms.
-* 📈 **Curves:** Suavização de movimento baseada em Curvas de Bézier (`\move`).
 * 🎵 **Reverse Karaoke:** Sistema de sumiço de sílabas automático com base nas divisões de karaoke (`\k`).
+* * 📈 **Curves [BETA]:** Suavização de movimento baseada em Curvas de Bézier (`\move`).
 
 👉 **[Adquira a versão Exclusive no meu Ko-fi](https://ko-fi.com/s/5a3d4b8736)**
 
@@ -162,8 +162,8 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
 
 * 📺 **Glitch:** Dynamic chromatic aberration with automatic color support based on Style and relative line positioning.
 * 🌊 **Rainbow Wave:** Dynamic chromatic wave with ultra-precise 5ms temporal slicing.
-* 📈 **Curves:** Movement smoothing/easing based on Cubic Bézier Curves (`\move`).
 * 🎵 **Reverse Karaoke:** Automatic syllable disappearance system based on karaoke timings (`\k`).
+* 📈 **Curves [BETA]:** Movement smoothing/easing based on Cubic Bézier Curves (`\move`).
 
 👉 **[Get the Exclusive version on my Ko-fi](https://ko-fi.com/s/5a3d4b8736)**
 
