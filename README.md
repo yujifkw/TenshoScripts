@@ -45,7 +45,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 * 📈 **Curves:** Suavização de movimento baseada em Curvas de Bézier (`\move`).
 * 🎵 **Reverse Karaoke:** Sistema de sumiço de sílabas automático com base nas divisões de karaoke (`\k`).
 
-👉 **[Adquira a versão Exclusive no meu Ko-fi](https://seulinkaqui.cardd.co)**
+👉 **[Adquira a versão Exclusive no meu Ko-fi](https://ko-fi.com/s/5a3d4b8736)**
 
 ---
 
@@ -152,7 +152,7 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
 * 📈 **Curves:** Movement smoothing/easing based on Cubic Bézier Curves (`\move`).
 * 🎵 **Reverse Karaoke:** Automatic syllable disappearance system based on karaoke timings (`\k`).
 
-👉 **[Get the Exclusive version on my Ko-fi](https://seulinkaqui.cardd.co)**
+👉 **[Get the Exclusive version on my Ko-fi](https://ko-fi.com/s/5a3d4b8736)**
 
 ---
 
