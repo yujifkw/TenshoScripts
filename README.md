@@ -34,6 +34,8 @@
 | **FixLines** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
 | **YtktFade** | Aplique o karaokê invisível do YouTube com cor configurável (`\2c`) a multiplas linhas ao mesmo tempo. |
 
+Veja mais sobre como as minhas automações funcionam [aqui](https://github.com/yujifkw/TenshoScripts/blob/main/HELP.md).
+
 ---
 
 ## 💎 TenshoScripts + (Versão Paga)
@@ -141,6 +143,8 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 | **Split Lines** | Divides sentences into individual character or word layers. |
 | **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom screen placement. |
 | **YtktFade** | Apply the invisible YouTube karaoke effect with configurable color (`\2c`) to multiple lines at the same time. |
+
+Learn more about how my automations work [here](https://github.com/yujifkw/TenshoScripts/blob/main/HELP.md).
 
 ---
 
