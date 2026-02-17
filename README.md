@@ -7,10 +7,10 @@
 </div>
 
 <div align="left">
-  <h1>TenshoScripts</h1>
+  <h1>Aegisub - TenshoScripts</h1>
 
   <p>
-    O <strong>TenshoScript</strong> é um toolkit essencial de automação para Aegisub, desenvolvido especificamente para legendas da cena <strong>Nerdcore</strong> e <strong>AMVs</strong>. Esta versão foca em ferramentas fundamentais para agilizar o workflow de legendas para YouTube.
+    O <strong>TenshoScripts</strong> é um toolkit essencial de automação para Aegisub, desenvolvido especificamente para legendas da cena <strong>Nerdcore</strong> e <strong>AMVs</strong>. Esta versão foca em ferramentas fundamentais para agilizar o workflow de legendas para YouTube.
   </p>
   
   <br />
@@ -115,10 +115,10 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 
 <div align="left">
 
-  <h1>TenshoScripts</h1>
+  <h1>Aegisub - TenshoScripts</h1>
 
   <p>
-    <strong>TenshoScript</strong> is an essential automation toolkit for Aegisub, specifically developed for the <strong>Nerdcore</strong> and <strong>AMV</strong> scene. This version focuses on fundamental tools to streamline the subtitle workflow for YouTube.
+    <strong>TenshoScripts</strong> is an essential automation toolkit for Aegisub, specifically developed for the <strong>Nerdcore</strong> and <strong>AMV</strong> scene. This version focuses on fundamental tools to streamline the subtitle workflow for YouTube.
   </p>
   
   <br />
