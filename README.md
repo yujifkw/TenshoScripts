@@ -28,7 +28,6 @@
 | Ferramenta | Descrição |
 | :--- | :--- |
 | **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra. |
-| **Glitch** | Aberração cromática dinâmica com suporte a cores automáticas do Estilo. |
 | **Flashes** | Alternância rítmica de cores para impacto visual na batida. |
 | **Gradient** | Gradientes horizontais letra por letra com até 5 cores chave. |
 | **Split Lines** | Divide frases em camadas individuais por caractere ou palavra. |
@@ -41,6 +40,7 @@
 
 Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efeitos complexos que antes só seriam possíveis em softwares de edição de vídeo pesados.
 
+* 📺 **Glitch:** Aberração cromática dinâmica com suporte a cores automáticas do Estilo e posição.
 * 🌊 **Rainbow Wave:** Onda cromática dinâmica com fatiamento milimétrico de 5ms.
 * 📈 **Curves:** Suavização de movimento baseada em Curvas de Bézier.
 * 🎵 **Reverse Karaoke:** Sistema de sumiço de sílabas por camadas.
@@ -55,23 +55,23 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
   <table>
     <tr>
       <td align="center" width="50%"><strong>1. Fadeworks Adaptado</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>2. Glitch Dinâmico</strong><br><img src="assets/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Gradiente</strong><br><img src="assets/gradient.gif" width="100%"></td>
     </tr>
     <tr>
       <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>4. Gradient</strong><br><img src="assets/gradient.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>5. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>5. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
       <td align="center" width="50%"><strong>6. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>8. Rainbow Wave (Exclusive)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Glitch Dinâmico (Pago)</strong><br><img src="assets/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>8. Rainbow Wave (Pago)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Curves (Exclusive)</strong><br><img src="assets/curves.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>10. Reverse Karaoke (Exclusive)</strong><br><img src="assets/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Curves (Pago)</strong><br><img src="assets/curves.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>10. Reverse Karaoke (Pago)</strong><br><img src="assets/reversek.gif" width="100%"></td>
     </tr>
   </table>
 </div>
@@ -135,7 +135,6 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 | Tool | Description |
 | :--- | :--- |
 | **Adapted Fadeworks** | Applies normal, alpha/color, or letter-by-letter fades. |
-| **Glitch** | Dynamic chromatic aberration with Style-based auto-color support. |
 | **Flashes** | Rhythmic color alternation for visual impact on the beat. |
 | **Gradient** | Letter-by-letter horizontal gradients with up to 5 key colors. |
 | **Split Lines** | Divides phrases into individual character or word layers. |
@@ -148,6 +147,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 
 Want to level up your subtitles? The **Exclusive** version automates complex effects that were previously only possible in heavy video editing software.
 
+* 📺 **Glitch:** Dynamic chromatic aberration with Style-based auto-color and position support.
 * 🌊 **Rainbow Wave:** Dynamic chromatic wave with 5ms precision slicing.
 * 📈 **Curves:** Movement easing based on Cubic Bezier Curves.
 * 🎵 **Reverse Karaoke:** Layered syllable disappearance system.
@@ -162,18 +162,18 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
   <table>
     <tr>
       <td align="center" width="50%"><strong>1. Adapted Fadeworks</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>2. Dynamic Glitch</strong><br><img src="assets/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Gradient</strong><br><img src="assets/gradient.gif" width="100%"></td>
     </tr>
     <tr>
       <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>4. Gradient</strong><br><img src="assets/gradient.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>5. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>5. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
       <td align="center" width="50%"><strong>6. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Dynamic Glitch (Exclusive)</strong><br><img src="assets/glitch.gif" width="100%"></td>
       <td align="center" width="50%"><strong>8. Rainbow Wave (Exclusive)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
