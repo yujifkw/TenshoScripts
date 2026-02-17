@@ -28,9 +28,11 @@
 | Ferramenta | Descrição |
 | :--- | :--- |
 | **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra (`LTR`, `RTL`, `Meio->Fora`, `Fora->Meio`). |
-| **Flashes** | Alternância rítmica de cores para impacto visual na batida. |
 | **Gradiente Fácil** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave ou automaticamente por Estilos. |
+| **Flashes** | Alternância rítmica de cores para impacto visual na batida. |
 | **Split Lines** | Divide frases em camadas individuais por caractere ou palavra. |
+| **Transform** |	Cria animações de transformação (`\t`) automáticas para cores (`\1c` a `\4c`), tamanho (`\fs`) e transparência (`\alpha`). |
+| **Random Font** |	Oscilação aleatória de fontes e tamanhos para efeitos de caos. |
 | **FixLines** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
 | **YtktFade** | Aplique o karaokê invisível do YouTube com cor configurável (`\2c`) a multiplas linhas ao mesmo tempo. |
 
@@ -64,16 +66,20 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
       <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>5. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>6. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>5. Transform</strong><br><img src="assets/transform.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>6. Random Fonts</strong><br><img src="assets/randomfont.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>2. Glitch Dinâmico (Pago)</strong><br><img src="assets/glitch.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>8. Rainbow Wave (Pago)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Curves (Pago)</strong><br><img src="assets/curves_loop.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>10. Reverse Karaoke (Pago)</strong><br><img src="assets/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Glitch Dinâmico (Pago)</strong><br><img src="assets/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>10. Rainbow Wave (Pago)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+    </tr>
+    <tr>
+      <td align="center" width="50%"><strong>11. Reverse Karaoke (Pago)</strong><br><img src="assets/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>12. Curves (Pago)</strong><br><img src="assets/curves_loop.gif" width="100%"></td>
     </tr>
   </table>
   <p>Recarregue a página caso os GIFs congelem.</p>
@@ -138,9 +144,11 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 | Tool | Description |
 | :--- | :--- |
 | **Adapted Fadeworks** | Applies normal fades (in/out), via alpha/color, or letter-by-letter (`LTR`, `RTL`, `Middle->Out`, `Out->Middle`). |
-| **Flashes** | Rhythmic color alternation for visual impact synced to the beat. |
 | **Easy Gradient** | Horizontal gradients automatically calculated letter-by-letter using up to 5 key colors or automatically by Styles. |
+| **Flashes** | Rhythmic color alternation for visual impact synced to the beat. |
 | **Split Lines** | Divides sentences into individual character or word layers. |
+| **Transform** | Creates automatic transformation animations (`\t`) for colors (`\1c` to `\4c`), size (`\fs`), and transparency (`\alpha`). |
+| **Random Font** | Random oscillation of fonts and sizes for chaotic effects. |
 | **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom screen placement. |
 | **YtktFade** | Apply the invisible YouTube karaoke effect with configurable color (`\2c`) to multiple lines at the same time. |
 
@@ -174,16 +182,20 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
       <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>5. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>6. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>5. Transform</strong><br><img src="assets/transform.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>6. Random Fonts</strong><br><img src="assets/randomfont.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>2. Dynamic Glitch (Paid)</strong><br><img src="assets/glitch.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>8. Rainbow Wave (Paid)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Curves (Paid)</strong><br><img src="assets/curves_loop.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>10. Reverse Karaoke (Paid)</strong><br><img src="assets/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Dynamic Glitch (Paid)</strong><br><img src="assets/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>10. Rainbow Wave (Paid)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+    </tr>
+    <tr>
+      <td align="center" width="50%"><strong>11. Reverse Karaoke (Paid)</strong><br><img src="assets/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>12. Curves (Paid)</strong><br><img src="assets/curves_loop.gif" width="100%"></td>
     </tr>
   </table>
   <p>Reload the page if the GIFs freeze.</p>
