@@ -29,7 +29,7 @@
 | :--- | :--- |
 | **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra (`LTR`, `RTL`, `Meio->Fora`, `Fora->Meio`). |
 | **Flashes** | Alternância rítmica de cores para impacto visual na batida. |
-| **Gradiente Fácil** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave. |
+| **Gradiente Fácil** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave ou automaticamente por Estilos. |
 | **Split Lines** | Divide frases em camadas individuais por caractere ou palavra. |
 | **FixLines** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
 | **YtktFade** | Aplique o karaokê invisível do YouTube com cor configurável (`\2c`) a multiplas linhas ao mesmo tempo. |
@@ -139,7 +139,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 | :--- | :--- |
 | **Adapted Fadeworks** | Applies normal fades (in/out), via alpha/color, or letter-by-letter (`LTR`, `RTL`, `Middle->Out`, `Out->Middle`). |
 | **Flashes** | Rhythmic color alternation for visual impact synced to the beat. |
-| **Easy Gradient** | Horizontal gradients automatically calculated letter-by-letter using up to 5 key colors. |
+| **Easy Gradient** | Horizontal gradients automatically calculated letter-by-letter using up to 5 key colors or automatically by Styles. |
 | **Split Lines** | Divides sentences into individual character or word layers. |
 | **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom screen placement. |
 | **YtktFade** | Apply the invisible YouTube karaoke effect with configurable color (`\2c`) to multiple lines at the same time. |
