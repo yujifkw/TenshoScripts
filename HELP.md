@@ -36,7 +36,7 @@ Aplica transições de visibilidade complexas de forma simplificada, unindo Alph
 ## 2. Flashes
 Ideal para sincronizar o impacto visual com a batida da música.
 
-![GUI Flashes](assets/gui_flashes.png)
+![GUI Flashes](assets/gui_flashes2.png)
 
 ### Parâmetros:
 * **Cor do Flash:** Cor que a legenda assumirá durante o pico do flash.
@@ -176,7 +176,7 @@ Applies complex visibility transitions in a simplified way, uniting Alpha and Co
 ## 2. Flashes
 Ideal for syncing visual impact with the music beat.
 
-![GUI Flashes](assets/gui_flashes.png)
+![GUI Flashes](assets/gui_flashes2.png)
 
 ### Parameters:
 * **Flash Color:** The color the subtitle takes during the flash peak.
