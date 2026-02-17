@@ -27,12 +27,12 @@
 
 | Ferramenta | Descrição |
 | :--- | :--- |
-| **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra. |
+| **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra (LTR, RTL, Meio->Fora, Fora->Meio). |
 | **Flashes** | Alternância rítmica de cores para impacto visual na batida. |
-| **Gradient** | Gradientes horizontais letra por letra com até 5 cores chave. |
+| **Gradient** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave. |
 | **Split Lines** | Divide frases em camadas individuais por caractere ou palavra. |
 | **FixLines** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
-| **YtktFade** | O clássico karaokê do YouTube com transparência configurável. |
+| **YtktFade** | O clássico karaokê do YouTube com cor configurável (`\2c`). |
 
 ---
 
@@ -40,10 +40,10 @@
 
 Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efeitos complexos que antes só seriam possíveis em softwares de edição de vídeo pesados.
 
-* 📺 **Glitch:** Aberração cromática dinâmica com suporte a cores automáticas do Estilo e posição.
+* 📺 **Glitch:** Aberração cromática dinâmica com suporte de cores automáticas baseadas no Estilo e na posição relativa da linha.
 * 🌊 **Rainbow Wave:** Onda cromática dinâmica com fatiamento milimétrico de 5ms.
-* 📈 **Curves:** Suavização de movimento baseada em Curvas de Bézier.
-* 🎵 **Reverse Karaoke:** Sistema de sumiço de sílabas por camadas.
+* 📈 **Curves:** Suavização de movimento baseada em Curvas de Bézier (`\move`).
+* 🎵 **Reverse Karaoke:** Sistema de sumiço de sílabas automático com base nas divisões de karaoke (`\k`).
 
 👉 **[Adquira a versão Exclusive no meu Ko-fi](https://seulinkaqui.cardd.co)**
 
@@ -134,12 +134,12 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 
 | Tool | Description |
 | :--- | :--- |
-| **Adapted Fadeworks** | Applies normal, alpha/color, or letter-by-letter fades. |
-| **Flashes** | Rhythmic color alternation for visual impact on the beat. |
-| **Gradient** | Letter-by-letter horizontal gradients with up to 5 key colors. |
-| **Split Lines** | Divides phrases into individual character or word layers. |
-| **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom. |
-| **YtktFade** | Classic YouTube-style karaoke with customizable transparency. |
+| **Adapted Fadeworks** | Applies normal fades (in/out), via alpha/color, or letter-by-letter (LTR, RTL, Middle->Out, Out->Middle). |
+| **Flashes** | Rhythmic color alternation for visual impact synced to the beat. |
+| **Gradient** | Horizontal gradients automatically calculated letter-by-letter using up to 5 key colors. |
+| **Split Lines** | Divides sentences into individual character or word layers. |
+| **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom screen placement. |
+| **YtktFade** | The classic YouTube-style karaoke with configurable color (`\2c`). |
 
 ---
 
@@ -147,10 +147,10 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 
 Want to level up your subtitles? The **Exclusive** version automates complex effects that were previously only possible in heavy video editing software.
 
-* 📺 **Glitch:** Dynamic chromatic aberration with Style-based auto-color and position support.
-* 🌊 **Rainbow Wave:** Dynamic chromatic wave with 5ms precision slicing.
-* 📈 **Curves:** Movement easing based on Cubic Bezier Curves.
-* 🎵 **Reverse Karaoke:** Layered syllable disappearance system.
+* 📺 **Glitch:** Dynamic chromatic aberration with automatic color support based on Style and relative line positioning.
+* 🌊 **Rainbow Wave:** Dynamic chromatic wave with ultra-precise 5ms temporal slicing.
+* 📈 **Curves:** Movement smoothing/easing based on Cubic Bézier Curves (`\move`).
+* 🎵 **Reverse Karaoke:** Automatic syllable disappearance system based on karaoke timings (`\k`).
 
 👉 **[Get the Exclusive version on my Ko-fi](https://seulinkaqui.cardd.co)**
 
