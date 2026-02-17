@@ -36,7 +36,7 @@
 
 ---
 
-## 💎 TenshoScript Exclusive (Versão Paga)
+## 💎 TenshoScripts + (Versão Paga)
 
 Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efeitos complexos que antes só seriam possíveis em softwares de edição de vídeo pesados.
 
@@ -143,7 +143,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 
 ---
 
-## 💎 TenshoScript Exclusive (Paid Version)
+## 💎 TenshoScripts + (Paid Version)
 
 Want to level up your subtitles? The **Exclusive** version automates complex effects that were previously only possible in heavy video editing software.
 
@@ -173,12 +173,12 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
       <td align="center" width="50%"><strong>6. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>2. Dynamic Glitch (Exclusive)</strong><br><img src="assets/glitch.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>8. Rainbow Wave (Exclusive)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Dynamic Glitch (Paid)</strong><br><img src="assets/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>8. Rainbow Wave (Paid)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Curves (Exclusive)</strong><br><img src="assets/curves.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>10. Reverse Karaoke (Exclusive)</strong><br><img src="assets/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Curves (Paid)</strong><br><img src="assets/curves.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>10. Reverse Karaoke (Paid)</strong><br><img src="assets/reversek.gif" width="100%"></td>
     </tr>
   </table>
 </div>
