@@ -70,7 +70,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
       <td align="center" width="50%"><strong>8. Rainbow Wave (Pago)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Curves (Pago)</strong><br><img src="assets/curves.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Curves (Pago)</strong><br><img src="assets/curves_loop.gif" width="100%"></td>
       <td align="center" width="50%"><strong>10. Reverse Karaoke (Pago)</strong><br><img src="assets/reversek.gif" width="100%"></td>
     </tr>
   </table>
@@ -177,7 +177,7 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
       <td align="center" width="50%"><strong>8. Rainbow Wave (Paid)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Curves (Paid)</strong><br><img src="assets/curves.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Curves (Paid)</strong><br><img src="assets/curves_loop.gif" width="100%"></td>
       <td align="center" width="50%"><strong>10. Reverse Karaoke (Paid)</strong><br><img src="assets/reversek.gif" width="100%"></td>
     </tr>
   </table>
