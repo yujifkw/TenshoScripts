@@ -212,3 +212,173 @@ Welcome to the technical documentation for **TenshoScripts**. This toolkit was d
 * **Layout Integrity:** All included tools detect your original alignment (`\an`) and position (`\pos`), maintaining the visual integrity of the line.
 
 ---
+
+## 1. Adapted Fadeworks
+Applies complex visibility transitions in a simplified way, combining Alpha and Color.
+
+![GUI Fadeworks](assets/gui_fadeworks.png)
+
+### Parameters:
+* **Fade In/Out:** Duration in milliseconds or as a percentage of the line's duration (e.g., `Fade in: 0.4` will set the fade in duration to 40% of the total line time).
+* **Alpha/Colour:** Sets whether the effect affects only transparency or involves a color transition.
+* **From/To:** Start and end colors for the fade (e.g., starting from white and ending at the style's default color).
+* **By Letter:** Enables sequential character-by-character fading.
+* **Direction:** Choose between **LTR** (Left-to-Right), **RTL** (Right-to-Left), **Middle->Out**, or **Out->Middle**.
+
+---
+
+## 2. Easy Gradient (Multi-Point)
+Generates letter-by-letter gradients with up to 5 key colors and advanced interpolation, or automatically based on styles.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Easy Gradient (Multi-Point)</strong><br>
+        <img src="assets/gui_gradient2.png" alt="GUI Gradient">
+      </td>
+      <td align="center" width="50%">
+        <strong>Gradient: Style Transition</strong><br>
+        <img src="assets/gui_gradient_styles.png" alt="GUI Gradient Styles">
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Parameters:
+* **HSL Interpolation:** Transitions colors through the Hue, Saturation, and Lightness spectrum, resulting in much more vibrant colors than standard RGB mode.
+* **Key Colors (1-5):** Defines the transition points. Enable intermediate colors for complex gradients.
+* **Target Checkboxes:** Allows selective gradient application to specific tags (`\c`, `\3c`, or `\4c`).
+* **Styles (A, B, C):** The script automatically reads all styles in your file. You can set a linear transition (A -> B) or a three-point transition (A -> C -> B).
+* **Full Interpolation:** Beyond colors, you can transition sizes (`\fs`), creating perspective or organic text growth effects.
+
+---
+
+## 3. Flashes
+Ideal for syncing visual impact with the music beat.
+
+![GUI Flashes](assets/gui_flashes2.png)
+
+### Parameters:
+* **Flash Color:** The color the subtitle takes during the flash peak.
+* **Interval (ms):** Sets the time between color swaps.
+* **Targets (\c, \3c, \4c):** Choose if the flash affects fill, border, or shadow independently.
+
+---
+
+## 4. Split Lines
+Divides lines into individual layers.
+
+![GUI Split](assets/gui_splitlines.png)
+
+### Features:
+* **Modes:** Split by **Character** or **Word**.
+* **Vacuum Filter:** The script detects spaces and invisible characters, calculating their width to maintain the layout, but **does not create** empty lines in the grid.
+* **Tag Preservation:** Keeps the original line tags in every sliced piece.
+
+---
+
+## 5. Transform (\t)
+A tool for quickly creating transformation animations without the need to type manual tags.
+
+![GUI Transform](assets/gui_transform.png)
+
+### Parameters:
+* **Interval (ms):** Sets the start and end time of the animation. The default end time is automatically filled with the line's duration.
+* **Color Targets:** Allows independent transformation of Primary (`\1c`), Secondary (`\2c`), Border (`\3c`), and Shadow (`\4c`) colors.
+* **Size and Alpha:** Animates font size variation (`\fs`) and global transparency (`\alpha`).
+
+---
+
+## 6. Random Font (Chaos)
+Creates an instability effect through the rapid oscillation of fonts and sizes.
+
+![GUI RandomFonts](assets/gui_randomfont.png)
+
+### Parameters:
+* **Switch Interval:** Sets the oscillation speed (Minimum of `40ms` to ensure stable rendering).
+* **Size Variation:** Defines a range (e.g., `5px`) for the font size to change randomly up or down.
+* **Character Mode:** When enabled, every letter in the sentence takes on a different font, generating a maximum distortion effect.
+
+---
+
+## 7. YtktFade
+Applies the invisible karaoke style optimized for the YouTube renderer.
+
+![GUI Ytkt](assets/gui_ytktfade.png)
+
+### Parameters:
+* **Enable \2c:** Defines a specific fill color for the moment a syllable is sung, ensuring better readability in the YouTube player.
+
+---
+
+## 8. FixLines
+A position standardization tool based on proportional calculations.
+
+![GUI FixLines](assets/gui_fixlines.png)
+
+### Features:
+* **Quick Buttons:** Instant positioning to **Top** or **Bottom**.
+* **Smart Resolution:** Automatically detects video `PlayRes` and adjusts coordinates to remain identical across any resolution (e.g., 720p or 1080p).
+
+---
+
+## 9. Dynamic Glitch (Paid)
+Generates dynamic chromatic aberration with color channel separation.
+
+![GUI Glitch](assets/gui_glitch.png)
+
+### Parameters:
+* **Auto-Style:** Reads your style and automatically generates harmonized glitch colors.
+* **Offset (px):** Defines the "violence" of the effect (how far colors drift from the center).
+* **Random Pos (Chaos):** Generates random positions for a more organic and noisy glitch effect.
+
+---
+
+## 10. Rainbow Wave (Paid)
+Creates a rainbow color wave that flows through the text via temporal slicing.
+
+![GUI Rainbow](assets/gui_rainbow.png)
+
+### Parameters:
+* **Slicing (ms):** Sets smoothness. The **5ms** default creates a 200 "fps" fluid motion.
+* **Speed & Width:** Controls displacement speed and how wide the color transition is across the text.
+
+---
+
+## 11. Reverse Karaoke (Paid)
+Inverts standard karaoke logic: text starts visible and disappears as the music plays.
+
+### How to Use:
+Perform the standard syllable division on the line (`\k`) and then run the automation.
+
+### Technical Advantage:
+Unlike simple macros that only apply alpha, TenshoScripts uses a synchronized layer-slicing system. This prevents the YouTube **flicker bug**, ensuring stable rendering on any device.
+
+---
+
+## 12. Curves (Paid) - BETA
+Replaces linear `\move` motion with professional acceleration and deceleration curves (Easing).
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Curves (Beta Presets)</strong><br>
+        <img src="assets/gui_curves.png" alt="GUI Curves">
+      </td>
+      <td align="center" width="50%">
+        <strong>Curves: Advanced Bézier Editor</strong><br>
+        <img src="assets/gui_curves_adv.png" alt="GUI Curves Advanced">
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Parameters:
+* **Ease Modes:** Classic presets like *Quad, Cubic*, and *Linear*.
+* **Bézier Control (Advanced):** "Flow" style curve editor, allowing coordinate influence point configuration for fully customized movements.
+
+---
+
+Developed by [Tensho](https://x.com/otenshy). MIT License.
