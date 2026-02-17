@@ -74,6 +74,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
       <td align="center" width="50%"><strong>10. Reverse Karaoke (Pago)</strong><br><img src="assets/reversek.gif" width="100%"></td>
     </tr>
   </table>
+  <p>Recarregue a página caso os GIFs congelem.</p>
 </div>
 
 ---
@@ -181,6 +182,7 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
       <td align="center" width="50%"><strong>10. Reverse Karaoke (Paid)</strong><br><img src="assets/reversek.gif" width="100%"></td>
     </tr>
   </table>
+  <p>Reload the page if the GIFs freeze.</p>
 </div>
 
 ---
