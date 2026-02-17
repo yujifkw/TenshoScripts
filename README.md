@@ -27,7 +27,7 @@
 
 | Ferramenta | Descrição |
 | :--- | :--- |
-| **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra (LTR, RTL, Meio->Fora, Fora->Meio). |
+| **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra (`LTR`, `RTL`, `Meio->Fora`, `Fora->Meio`). |
 | **Flashes** | Alternância rítmica de cores para impacto visual na batida. |
 | **Gradient** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave. |
 | **Split Lines** | Divide frases em camadas individuais por caractere ou palavra. |
@@ -134,7 +134,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 
 | Tool | Description |
 | :--- | :--- |
-| **Adapted Fadeworks** | Applies normal fades (in/out), via alpha/color, or letter-by-letter (LTR, RTL, Middle->Out, Out->Middle). |
+| **Adapted Fadeworks** | Applies normal fades (in/out), via alpha/color, or letter-by-letter (`LTR`, `RTL`, `Middle->Out`, `Out->Middle`). |
 | **Flashes** | Rhythmic color alternation for visual impact synced to the beat. |
 | **Gradient** | Horizontal gradients automatically calculated letter-by-letter using up to 5 key colors. |
 | **Split Lines** | Divides sentences into individual character or word layers. |
