@@ -123,7 +123,7 @@ Ferramenta de padronização de posição baseada em cálculos proporcionais.
 ![GUI FixLines](assets/gui_fixlines.png)
 
 ### Funcionalidades:
-* **Botões Rápidos:** Posicionamento instantâneo em **Topo** ou **Baixo**.
+* **Forçar Alinhamento:** Permite aplicar ou não `\an5` às linhas posicionadas.
 * **Resolução Inteligente:** Detecta automaticamente a `PlayRes` do vídeo e ajusta as coordenadas para que fiquem idênticas em qualquer resolução (ex: 720p ou 1080p).
 
 ---
@@ -318,7 +318,7 @@ A position standardization tool based on proportional calculations.
 ![GUI FixLines](assets/gui_fixlines.png)
 
 ### Features:
-* **Quick Buttons:** Instant positioning to **Top** or **Bottom**.
+* **Force Alignment:** Allows you to apply or not apply `\an5` to the positioned lines.
 * **Smart Resolution:** Automatically detects video `PlayRes` and adjusts coordinates to remain identical across any resolution (e.g., 720p or 1080p).
 
 ---
