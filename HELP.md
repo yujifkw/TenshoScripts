@@ -11,11 +11,12 @@ Bem-vindo à documentação técnica do **TenshoScripts**. Este toolkit foi proj
 
 ---
 
-## 🛠️ Diferenciais Técnicos (Por que usar?)
+## 🛠️ Diferenciais Técnicos da Engine
 
-* **Navegação Recursiva:** Implementamos um botão **"Voltar"** em todas as GUIs. Você pode transitar entre ferramentas sem precisar fechar e reabrir o script pelo menu de automação.
-* **Blindagem UTF-8 (Anti-Crash):** Utilizamos padrões de captura de 1 a 4 bytes para processar caracteres. Isso elimina o erro de **C++ Exception** ao fatiar letras acentuadas ou caracteres especiais, um problema crônico em scripts de fatiamento antigos.
-* **Respeito ao Layout Original:** Todas as ferramentas inclusas detectam seu alinhamento (`\an`) e posição (`\pos`) originais, mantendo a integridade visual da frase.
+* **Navegação em State Machine:** Transite entre ferramentas, painéis básicos e avançados de forma contínua usando o botão **"Voltar"**, sem duplicar processamento ou fechar o script.
+* **Blindagem UTF-8 (Anti-Crash):** Captura segura de caracteres de 1 a 4 bytes, eliminando o clássico *C++ Exception* ao fatiar letras acentuadas ou emojis.
+* **Motor de "Culling" e Limite de 40ms:** Ferramentas de fatiamento contínuo geram as fatias apenas onde a animação ocorre, envelopando o tempo inativo em "Linhas Clean" estáticas. Isso reduz o peso do arquivo `.ass` em até 80% e elimina travamentos no player de vídeo.
+* **Motor de Viagem no Tempo:** Fatiar uma linha normalmente quebra tags como `\fad` e `\t`. O TenshoScripts recalcula dinamicamente os tempos absolutos dessas tags para tempos relativos (suportando offsets negativos nativos do VSFilter), mantendo seus fades e blurs perfeitamente intactos nas fatias.
 
 ---
 
@@ -25,26 +26,26 @@ Aplica transições de visibilidade complexas de forma simplificada, unindo Alph
 ![GUI Fadeworks](ASSETS/fadeworks_pt.png)
 
 ### Parâmetros:
-* **Fade In/Out:** Duração em milissegundos da entrada e saída ou em porcentagem em relação ao tempo da linha (exemplo: `Fade in: 0.4` fará o fade in na duração de 40% do tempo máximo da linha).
-* **Alpha/Colour:** Define se o efeito afetará apenas a transparência ou se haverá transição de cores.
-* **From/To:** Cores de início e fim do fade (ex: começar em branco e terminar na cor do estilo).
-* **By Letter:** Ativa o sequenciamento caractere por caractere.
-* **Direção:** Escolha entre **LTR** (esquerda para direita), **RTL** (direita para esquerda), **Meio->Fora** ou **Fora->Meio**.
+* **Fade In/Out:** Duração em milissegundos da entrada e saída ou porcentagem relativa (`0.4` fará o fade em 40% do tempo da linha).
+* **Alpha/Colour:** Define se o efeito afetará apenas a transparência ou se haverá transição de cores cruzadas.
+* **From/To:** Cores de início e fim do fade.
+* **By Letter:** Ativa o sequenciamento caractere por caractere (com purga automática de tags de karaoke residuais para evitar quebra do retextmod).
+* **Direção:** Escolha entre `LTR` (esquerda para direita), `RTL` (direita para esquerda), `Meio->Fora` ou `Fora->Meio` (com cálculo radial perfeito para números pares e ímpares de caracteres).
 
 ---
 
 ## 2. Gradiente Fácil (Multi-Ponto)
-Gera gradientes letra por letra com até 5 cores chave e interpolação avançada, ou automaticamente pelos estilos.
+Gera gradientes letra por letra com até 5 cores chave e interpolação avançada, ou automaticamente através de Estilos.
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Gradiente Fácil (Multi-Ponto)</strong><br>
+        <strong>Gradiente Multi-Ponto</strong><br>
         <img src="ASSETS/gradient_pt.png" alt="GUI Gradient">
       </td>
       <td align="center" width="50%">
-        <strong>Transição de Estilo</strong><br>
+        <strong>Gradiente: Transição de Estilo</strong><br>
         <img src="ASSETS/gradient_sty_pt.png" alt="GUI Gradient Styles">
       </td>
     </tr>
@@ -52,11 +53,11 @@ Gera gradientes letra por letra com até 5 cores chave e interpolação avançad
 </div>
 
 ### Parâmetros:
-* **Interpolar HSL:** Transita as cores pelo espectro de Matiz, Saturação e Luminosidade, resultando em cores muito mais vivas que o modo RGB.
-* **Cores Chave (1-5):** Define os pontos de transição. Ative as cores intermediárias para gradientes complexos.
-* **Checkboxes Target:** Permite aplicar o gradiente seletivamente apenas em tags específicas (`\c`, `\3c` ou `\4c`).
-* **Estilos (A, B, C):** O script lê automaticamente todos os estilos do seu arquivo. Você pode definir uma transição linear (A -> B) ou uma transição em três pontos (A -> C -> B).
-* **Interpolação Completa:** Além das cores, você pode transitar tamanhos (`\fs`), criando efeitos de perspectiva ou crescimento orgânico do texto.
+* **Interpolar HSL:** Transita as cores pelo espectro de Matiz, Saturação e Luminosidade em vez do espaço RGB, resultando em cores vibrantes que não passam por tons de cinza ou marrom no meio do caminho.
+* **Cores Chave (1-5):** Define os pontos de parada. Ative as cores intermediárias para gradientes ultracomplexos.
+* **Checkboxes Target:** Aplique o gradiente seletivamente apenas em tags específicas (`\c`, `\3c` ou `\4c`).
+* **Estilos (A, B, C):** Lê automaticamente sua tabela de estilos. Transição linear (A -> B) ou ancorada em três pontos (A -> C -> B).
+* **Interpolação Completa:** Transita matematicamente cores, bordas (`\bord`), sombras (`\shad`) e tamanhos (`\fs`), gerando efeitos de perspectiva 3D ou crescimento orgânico do texto.
 
 ---
 
@@ -66,123 +67,131 @@ Ideal para sincronizar o impacto visual com a batida da música.
 ![GUI Flashes](ASSETS/flashes_pt.png)
 
 ### Parâmetros:
-* **Cor do Flash:** Cor que a legenda assumirá durante o pico do flash.
-* **Intervalo (ms):** Define o tempo entre as trocas de cor.
-* **Alvos (`\c`, `\2c`, `\3c`, `\4c`):** Escolha se o flash afeta o preenchimento, a borda ou a sombra de forma independente.
+* **Cor do Flash:** Cor que a legenda assumirá durante o pico (BPM).
+* **Intervalo (ms):** Define o tempo entre as alternâncias.
+* **Suavizar Transição:** Quando desmarcado, faz cortes secos. Quando marcado, cria um efeito pulsante interligando os flashes com `\t`.
 
 ---
 
 ## 4. Split Lines
-Divide frases em camadas individuais.
+Divide frases em camadas individuais mantendo o layout original estrito.
 
 ![GUI Split](ASSETS/split_pt.png)
 
 ### Funcionalidades:
 * **Modos:** Dividir por **Caractere** ou por **Palavra**.
-* **Filtro de Vácuo:** O script detecta espaços e caracteres invisíveis, calculando sua largura para manter o layout, mas **não cria** linhas vazias na grade.
-* **Preservação de Tags:** Mantém as tags originais da linha em cada pedaço fatiado.
+* **Preservação Tipográfica:** Extrai e remonta tags globais e locais, incluindo `\fs` original e ancoragens horizontais.
+* **Filtro de Vácuo:** Detecta espaços e calcula sua métrica (`text_extents`) para manter o kerning correto, mas aborta a criação de linhas inúteis vazias na grid.
 
 ---
 
 ## 5. Transform (\t)
-Ferramenta para criação rápida de animações de transformação sem necessidade de digitar tags manuais.
+Criação rápida de animações de transição temporal.
 
 ![GUI Transform](ASSETS/transform_pt.png)
 
 ### Parâmetros:
-* **Intervalo (ms):** Define o tempo de início e fim da animação. O tempo de fim padrão é preenchido automaticamente com a duração da linha.
-* **Alvos de Cor:** Permite transformar de forma independente as cores Primária (`\1c`), Secundária (`\2c`), Borda (`\3c`) e Sombra (`\4c`).
-* **Tamanho e Alpha:** Anima a variação de escala da fonte (`\fs`) e a transparência global (`\alpha`).
+* **Intervalo (ms):** Define tempo de Início e Fim (o fim herda a duração da linha por padrão).
+* **Alvos de Cor & Tamanho:** Permite transicionar `\1c`, `\2c`, `\3c`, `\4c`, escalar fonte (`\fs`) e opacidade global (`\alpha`) simultaneamente.
 
 ---
 
 ## 6. Texto & Fontes FX
-Cria um efeito de instabilidade através da oscilação rápida de fontes e tamanhos.
+Um poderoso motor integrado de motion tipográfico. Substitui o antigo Random Fonts e engloba 5 ferramentas de manipulação letreiral com geração de "linhas clean" dinâmicas.
 
-![GUI RandomFonts](ASSETS/textfx_pt.png)
+![GUI TextFX](ASSETS/textfx_pt.png)
 
-### Parâmetros:
-* **Intervalo de Troca:** Define a velocidade da oscilação (Mínimo de `40ms` para garantir a renderização).
-* **Variação de Tamanho:** Define um intervalo (ex: `5px`) para que o tamanho da fonte mude aleatoriamente para cima ou para baixo.
-* **Modo Caractere:** Quando ativo, cada letra da frase assume uma fonte diferente entre si, gerando um efeito de distorção máxima.
+### Efeitos Disponíveis:
+* **Variar Fontes:** Sorteia fontes de uma lista predefinida. **Normalização Inclusa:** Utiliza um dicionário de "Altura-X" invisível para corrigir a caixa das fontes (ex: *Lucida Console* ganha escala diferente para não "murchar" perto da *Roboto*).
+* **Typewriter (Máquina de Escrever):** Revela as letras em sequência baseada em `ms/char`. 
+* **Embaralhar (Unscramble):** Efeito de descriptografia (Hacking). Antes de revelar a letra real, exibe símbolos aleatórios por 120ms.
+* **Caos Símbolos:** O texto sofre corrupção contínua ao longo do tempo (30% de chance de virar um caractere corrompido a cada frame fatiado).
+* **Inverter Letras:** Substitui letras pelos seus equivalentes espelhados em código Unicode. Se as direções **Horizontal (X)** ou **Ambos (X+Y)** forem escolhidas, a string inteira é reordenada de trás pra frente (Espelho Verdadeiro).
 
+### A Mágica do "Pulo Dinâmico" (Centralizar)
+Ao ativar o **Pulo Dinâmico** no Typewriter ou Embaralhar, as sílabas que ainda não foram reveladas são fisicamente *apagadas* da linha em vez de apenas escondidas com alpha. Se a sua linha tiver alinhamento central (`\an5`, `\an8`, etc), a frase inteira se recalcula e "pula" para o centro a cada nova letra impressa na tela!
+
+---
 
 ## 7. YtktFade
-Aplica o estilo de karaokê invisível otimizado para o renderizador do YouTube.
+Otimizador de compressão para YouTube.
 
 ![GUI Ytkt](ASSETS/ytkt_pt.png)
 
 ### Parâmetros:
-* **Ativar \2c:** Define uma cor de preenchimento específica para o momento em que a sílaba é cantada, garantindo maior legibilidade no player do YouTube.
+* **Alpha Constante:** Injeta alphas que forçam os renderizadores web (VP9/AV1) a manter a qualidade da borda do karaokê.
+* **Ativar \2c:** Aplica cores secundárias de preenchimento.
 
 ---
 
 ## 8. FixLines
-Ferramenta de padronização de posição baseada em cálculos proporcionais.
+Padronização de posição por cálculos matemáticos relativos.
 
 ![GUI FixLines](ASSETS/fix_pt.png)
 
 ### Funcionalidades:
-* **Forçar Alinhamento:** Permite aplicar ou não `\an5` às linhas posicionadas.
-* **Resolução Inteligente:** Detecta automaticamente a `PlayRes` do vídeo e ajusta as coordenadas para que fiquem idênticas em qualquer resolução (ex: 720p ou 1080p).
+* **Forçar Alinhamento (\an5):** Anula alinhamentos prévios e centraliza o ponto de âncora.
+* **Cálculo Delta:** Captura a resolução real (`PlayRes`) e posiciona legendas em exata proporção.
 
 ---
 
 ## 9. Glitch Dinâmico (Pago)
-Gera uma aberração cromática dinâmica com separação de canais de cor.
+Gerador avançado de aberração cromática (RGB Split) estático e animado.
 
 ![GUI Glitch](ASSETS/glitch_pt.png)
 
-### Parâmetros:
-* **Auto-Style:** Lê o seu estilo e gera cores de glitch harmonizadas automaticamente.
-* **Offset (px):** Define a "violência" do efeito (quão longe as cores vão do centro).
-* **Random Pos (Caos):** Gera posições aleatórias para um efeito de glitch mais orgânico e ruidoso.
+### Diferenciais Técnicos:
+* **Flicker Tipográfico:** Ative "Negrito" ou "Itálico" e o motor joga uma moeda (50% de chance) a cada frame gerado por camada: o glitch piscará com quebra de peso de fonte durante o tempo da distorção, criando um visual extremamente agressivo.
+* **Modo Caos (Random Pos):** Solta a âncora do núcleo (`\c1`). Enquanto as bordas tremem no X, o núcleo vibra em direções aleatórias no eixo Y.
+* **Tipos de Execução:** Escolha fatiar todo o texto ("Sempre") ou gerar a corrupção apenas no **Começo** ou no **Final** da linha, otimizando o restante do tempo com Culling.
+* **Integração com Karaokê:** Gere glitchs sílaba por sílaba (sincronizado com `\k` nativo ou ReverseK). 
+* **Centralizar Karaoke:** Usa a mesma engenharia de "Pulo Dinâmico" do *Text FX* para forçar a centralização do texto enquanto as palavras vão aparecendo no glitch!
 
 ---
 
 ## 10. Onda Arco-Íris (Pago)
-Cria uma onda de cores arco-íris que flui pelo texto através de fatiamento temporal.
+Cria pulsos radiais cromáticos varrendo o texto sem sobrepor camadas no Aegisub.
 
 ![GUI Rainbow](ASSETS/rainbow_pt.png)
 
 ### Parâmetros:
-* **Fatiamento (ms):** Define a suavidade. O padrão de **5ms** cria uma fluidez de 200 "frames" por segundo.
-* **Speed & Width:** Controla a velocidade de deslocamento e quão larga é a transição de cor no texto.
+* **Usar Cor do Estilo:** No lugar das cores RGB fixas, você pode selecionar um estilo secundário. O motor utilizará a matemática de uma **Curva Senoidal (`math.sin`)** para gerar um "pulso" macio (fade-in e fade-out perfeito), substituindo a cor atual pela cor do estilo de forma líquida.
+* **Lógica de Passo Blindada:** Opera com um limite inferior rígido de `40ms`, impedindo a criação de sanduíches de milissegundos que engasgariam renderizadores.
+* **Culling de Ponta a Ponta:** Calcula de forma absoluta onde a onda termina na última letra e compacta todos os segundos restantes da legenda original numa única linha estática.
 
 ---
 
 ## 11. Karaoke Reverso (Pago)
-Inverte a lógica do karaokê comum: o texto começa visível e desaparece conforme a música toca.
-
-### Como Usar:
-Faça a divisão de sílabas padrão na linha (`\k`) e depois execute a automação.
+Inverte a lógica do karaokê: a linha inteira já está cantada na tela e vai *desaparecendo* conforme os tempos de `\k` estouram.
 
 ### Diferencial Técnico:
-Diferente de macros simples que apenas aplicam alpha, o TenshoScripts utiliza um sistema de fatiamento por camadas sincronizadas. Isso evita o bug de cintilação (*flicker*) do YouTube, garantindo uma renderização estável em qualquer dispositivo.
+Processado sem o uso instável de chaves `\t` com alpha cruzado. Ele varre as sílabas e aplica estados binários de visibilidade `\alpha&H00&` (atual/futuro) e `\alpha&HFF&` (passado), garantindo zero bugs de cintilação, além de preservar as tags de tamanho (`\fs`) e posições globais da linha base.
 
 ---
 
 ## 12. Curvas (Pago) - BETA
-Substitui o movimento linear do `\move` por curvas de aceleração e desaceleração (Easing).
+Substitui o engessado `\move` do Aegisub por interpolação de movimento via Easing.
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Curvas (Presets Beta)</strong><br>
+        <strong>Modo Básico (Quad/Cubic)</strong><br>
         <img src="ASSETS/curves_pt.png" alt="GUI Curves">
       </td>
       <td align="center" width="50%">
-        <strong>Curvas: Editor Bézier</strong><br>
+        <strong>Modo Bézier Avançado</strong><br>
         <img src="ASSETS/curves_adv_pt.png" alt="GUI Curves Advanced">
       </td>
     </tr>
   </table>
 </div>
 
-### Parâmetros:
-* **Ease Modes:** Presets clássicos como *Quad, Cubic* e *Linear*.
-* **Controle de Bézier (Avançado):** Editor de curvas estilo "Flow", permitindo configurar os pontos de influência para movimentos totalmente personalizados.
+### Parâmetros Easing:
+* **Usar Cubic:** Checkbox rápido para alternar a aceleração entre o cálculo Quadrático (`t * t`) e Cúbico (`t ^ 3`), entregando um "arranque" muito mais forte.
+* **Modos CSS Padrão:** O painel avançado inclui presets da indústria como *Expo In*, *Expo Out*, *Back In-Out* e *Back Out* (Movimento elástico perfeito).
+* **Análise Vetorial de Bézier:** Edite coordenadas `x1, y1` e `x2, y2` idênticas às ferramentas de interpolação do After Effects.
+* **Preservação de Sub-Efeitos:** Fatiar em dezenas de pedaços quebraria um fade-in. A engine nativa do Curves converte todas as suas durações globais e joga-as para tempos negativos localizados `\t(-offset, ...)` para manter transições de cor e afins intocadas durante o voo da curva!
 
 ---
 
