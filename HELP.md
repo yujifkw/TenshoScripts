@@ -22,7 +22,7 @@ Bem-vindo à documentação técnica do **TenshoScripts**. Este toolkit foi proj
 ## 1. Fadeworks Adaptado
 Aplica transições de visibilidade complexas de forma simplificada, unindo Alpha e Cor.
 
-![GUI Fadeworks](assets/gui_fadeworks.png)
+![GUI Fadeworks](ASSETS/fadeworks_pt.png)
 
 ### Parâmetros:
 * **Fade In/Out:** Duração em milissegundos da entrada e saída ou em porcentagem em relação ao tempo da linha (exemplo: `Fade in: 0.4` fará o fade in na duração de 40% do tempo máximo da linha).
@@ -41,11 +41,11 @@ Gera gradientes letra por letra com até 5 cores chave e interpolação avançad
     <tr>
       <td align="center" width="50%">
         <strong>Easy Gradient (Multi-Ponto)</strong><br>
-        <img src="assets/gui_gradient2.png" alt="GUI Gradient">
+        <img src="ASSETS/gradient_pt.png" alt="GUI Gradient">
       </td>
       <td align="center" width="50%">
         <strong>Gradient: Style Transition</strong><br>
-        <img src="assets/gui_gradient_styles.png" alt="GUI Gradient Styles">
+        <img src="ASSETS/gradient_sty_pt.png alt="GUI Gradient Styles">
       </td>
     </tr>
   </table>
@@ -63,7 +63,7 @@ Gera gradientes letra por letra com até 5 cores chave e interpolação avançad
 ## 3. Flashes
 Ideal para sincronizar o impacto visual com a batida da música.
 
-![GUI Flashes](assets/gui_flashes2.png)
+![GUI Flashes](ASSETS/flashes_pt.png)
 
 ### Parâmetros:
 * **Cor do Flash:** Cor que a legenda assumirá durante o pico do flash.
@@ -75,7 +75,7 @@ Ideal para sincronizar o impacto visual com a batida da música.
 ## 4. Split Lines
 Divide frases em camadas individuais.
 
-![GUI Split](assets/gui_splitlines.png)
+![GUI Split](ASSETS/split_pt.png)
 
 ### Funcionalidades:
 * **Modos:** Dividir por **Caractere** ou por **Palavra**.
@@ -87,7 +87,7 @@ Divide frases em camadas individuais.
 ## 5. Transform (\t)
 Ferramenta para criação rápida de animações de transformação sem necessidade de digitar tags manuais.
 
-![GUI Transform](assets/gui_transform.png)
+![GUI Transform](ASSETS/transform_pt.png)
 
 ### Parâmetros:
 * **Intervalo (ms):** Define o tempo de início e fim da animação. O tempo de fim padrão é preenchido automaticamente com a duração da linha.
@@ -99,7 +99,7 @@ Ferramenta para criação rápida de animações de transformação sem necessid
 ## 6. Random Font (Caos)
 Cria um efeito de instabilidade através da oscilação rápida de fontes e tamanhos.
 
-![GUI RandomFonts](assets/gui_randomfont.png)
+![GUI RandomFonts](ASSETS/textfx_pt.png)
 
 ### Parâmetros:
 * **Intervalo de Troca:** Define a velocidade da oscilação (Mínimo de `40ms` para garantir a renderização).
@@ -110,7 +110,7 @@ Cria um efeito de instabilidade através da oscilação rápida de fontes e tama
 ## 7. YtktFade
 Aplica o estilo de karaokê invisível otimizado para o renderizador do YouTube.
 
-![GUI Ytkt](assets/gui_ytktfade.png)
+![GUI Ytkt](ASSETS/ytkt_pt.png)
 
 ### Parâmetros:
 * **Ativar \2c:** Define uma cor de preenchimento específica para o momento em que a sílaba é cantada, garantindo maior legibilidade no player do YouTube.
@@ -120,7 +120,7 @@ Aplica o estilo de karaokê invisível otimizado para o renderizador do YouTube.
 ## 8. FixLines
 Ferramenta de padronização de posição baseada em cálculos proporcionais.
 
-![GUI FixLines](assets/gui_fixlines.png)
+![GUI FixLines](ASSETS/fix_pt.png)
 
 ### Funcionalidades:
 * **Forçar Alinhamento:** Permite aplicar ou não `\an5` às linhas posicionadas.
@@ -131,7 +131,7 @@ Ferramenta de padronização de posição baseada em cálculos proporcionais.
 ## 9. Glitch Dinâmico (Pago)
 Gera uma aberração cromática dinâmica com separação de canais de cor.
 
-![GUI Glitch](assets/gui_glitch.png)
+![GUI Glitch](ASSETS/glitch_pt.png)
 
 ### Parâmetros:
 * **Auto-Style:** Lê o seu estilo e gera cores de glitch harmonizadas automaticamente.
@@ -143,7 +143,7 @@ Gera uma aberração cromática dinâmica com separação de canais de cor.
 ## 10. Rainbow Wave (Pago)
 Cria uma onda de cores arco-íris que flui pelo texto através de fatiamento temporal.
 
-![GUI Rainbow](assets/gui_rainbow.png)
+![GUI Rainbow](ASSETS/rainbow_pt.png)
 
 ### Parâmetros:
 * **Fatiamento (ms):** Define a suavidade. O padrão de **5ms** cria uma fluidez de 200 "frames" por segundo.
@@ -170,11 +170,11 @@ Substitui o movimento linear do `\move` por curvas de aceleração e desacelera�
     <tr>
       <td align="center" width="50%">
         <strong>Curves (Presets Beta)</strong><br>
-        <img src="assets/gui_curves.png" alt="GUI Curves">
+        <img src="ASSETS/curves_pt.png" alt="GUI Curves">
       </td>
       <td align="center" width="50%">
         <strong>Curves: Advanced Bézier Editor</strong><br>
-        <img src="assets/gui_curves_adv.png" alt="GUI Curves Advanced">
+        <img src="ASSETS/curves_adv_pt.png" alt="GUI Curves Advanced">
       </td>
     </tr>
   </table>
@@ -216,7 +216,7 @@ Welcome to the technical documentation for **TenshoScripts**. This toolkit was d
 ## 1. Adapted Fadeworks
 Applies complex visibility transitions in a simplified way, combining Alpha and Color.
 
-![GUI Fadeworks](assets/gui_fadeworks.png)
+![GUI Fadeworks](ASSETS/fadeworks_en.png)
 
 ### Parameters:
 * **Fade In/Out:** Duration in milliseconds or as a percentage of the line's duration (e.g., `Fade in: 0.4` will set the fade in duration to 40% of the total line time).
@@ -235,11 +235,11 @@ Generates letter-by-letter gradients with up to 5 key colors and advanced interp
     <tr>
       <td align="center" width="50%">
         <strong>Easy Gradient (Multi-Point)</strong><br>
-        <img src="assets/gui_gradient2.png" alt="GUI Gradient">
+        <img src="ASSETS/gradient_en.png" alt="GUI Gradient">
       </td>
       <td align="center" width="50%">
         <strong>Gradient: Style Transition</strong><br>
-        <img src="assets/gui_gradient_styles.png" alt="GUI Gradient Styles">
+        <img src="ASSETS/gradient_sty_en.png alt="GUI Gradient Styles">
       </td>
     </tr>
   </table>
@@ -257,7 +257,7 @@ Generates letter-by-letter gradients with up to 5 key colors and advanced interp
 ## 3. Flashes
 Ideal for syncing visual impact with the music beat.
 
-![GUI Flashes](assets/gui_flashes2.png)
+![GUI Flashes](ASSETS/flashes_en.png)
 
 ### Parameters:
 * **Flash Color:** The color the subtitle takes during the flash peak.
@@ -269,7 +269,7 @@ Ideal for syncing visual impact with the music beat.
 ## 4. Split Lines
 Divides lines into individual layers.
 
-![GUI Split](assets/gui_splitlines.png)
+![GUI Split](ASSETS/split_en.png)
 
 ### Features:
 * **Modes:** Split by **Character** or **Word**.
@@ -281,7 +281,7 @@ Divides lines into individual layers.
 ## 5. Transform (\t)
 A tool for quickly creating transformation animations without the need to type manual tags.
 
-![GUI Transform](assets/gui_transform.png)
+![GUI Transform](ASSETS/transform_en.png)
 
 ### Parameters:
 * **Interval (ms):** Sets the start and end time of the animation. The default end time is automatically filled with the line's duration.
@@ -293,7 +293,7 @@ A tool for quickly creating transformation animations without the need to type m
 ## 6. Random Font (Chaos)
 Creates an instability effect through the rapid oscillation of fonts and sizes.
 
-![GUI RandomFonts](assets/gui_randomfont.png)
+![GUI RandomFonts](ASSETS/textfx_en.png)
 
 ### Parameters:
 * **Switch Interval:** Sets the oscillation speed (Minimum of `40ms` to ensure stable rendering).
@@ -305,7 +305,7 @@ Creates an instability effect through the rapid oscillation of fonts and sizes.
 ## 7. YtktFade
 Applies the invisible karaoke style optimized for the YouTube renderer.
 
-![GUI Ytkt](assets/gui_ytktfade.png)
+![GUI Ytkt](ASSETS/ytkt_en.png)
 
 ### Parameters:
 * **Enable \2c:** Defines a specific fill color for the moment a syllable is sung, ensuring better readability in the YouTube player.
@@ -315,7 +315,7 @@ Applies the invisible karaoke style optimized for the YouTube renderer.
 ## 8. FixLines
 A position standardization tool based on proportional calculations.
 
-![GUI FixLines](assets/gui_fixlines.png)
+![GUI FixLines](ASSETS/fix_en.png)
 
 ### Features:
 * **Force Alignment:** Allows you to apply or not apply `\an5` to the positioned lines.
@@ -326,7 +326,7 @@ A position standardization tool based on proportional calculations.
 ## 9. Dynamic Glitch (Paid)
 Generates dynamic chromatic aberration with color channel separation.
 
-![GUI Glitch](assets/gui_glitch.png)
+![GUI Glitch](ASSETS/glitch_en.png)
 
 ### Parameters:
 * **Auto-Style:** Reads your style and automatically generates harmonized glitch colors.
@@ -338,7 +338,7 @@ Generates dynamic chromatic aberration with color channel separation.
 ## 10. Rainbow Wave (Paid)
 Creates a rainbow color wave that flows through the text via temporal slicing.
 
-![GUI Rainbow](assets/gui_rainbow.png)
+![GUI Rainbow](ASSETS/rainbow_en.png)
 
 ### Parameters:
 * **Slicing (ms):** Sets smoothness. The **5ms** default creates a 200 "fps" fluid motion.
@@ -365,11 +365,11 @@ Replaces linear `\move` motion with professional acceleration and deceleration c
     <tr>
       <td align="center" width="50%">
         <strong>Curves (Beta Presets)</strong><br>
-        <img src="assets/gui_curves.png" alt="GUI Curves">
+        <img src="ASSETS/curves_en.png" alt="GUI Curves">
       </td>
       <td align="center" width="50%">
         <strong>Curves: Advanced Bézier Editor</strong><br>
-        <img src="assets/gui_curves_adv.png" alt="GUI Curves Advanced">
+        <img src="ASSETS/curves_adv_en.png" alt="GUI Curves Advanced">
       </td>
     </tr>
   </table>
