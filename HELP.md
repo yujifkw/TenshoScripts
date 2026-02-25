@@ -205,10 +205,12 @@ Substitui o engessado `\move` do Aegisub por interpolação de movimento via Eas
 </div>
 
 <br />
-
-Desenvolvido por [Tensho](https://x.com/otenshy). Licença MIT.
-
 <br />
+
+<div align="center">
+  <p>Desenvolvido por <strong><a href="https://x.com/otenshy">Tensho</a></strong>. Licença MIT.</p>
+</div>
+
 <br />
 <hr />
 <br />
@@ -419,7 +421,10 @@ Replaces Aegisub's rigid `\move` tag with motion interpolation via Easing.
 </div>
 
 <br />
+<br />
 
-Developed by [Tensho](https://x.com/otenshy). MIT License.
+<div align="center">
+  <p>Developed by <strong><a href="https://x.com/otenshy">Tensho</a></strong>. MIT License.</p>
+</div
 
 <br />
