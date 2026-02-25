@@ -45,7 +45,7 @@ Veja mais sobre como as minhas automações funcionam [aqui](https://github.com/
 Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efeitos complexos que antes só seriam possíveis em softwares de edição de vídeo pesados.
 
 * 📺 **Glitch Dinâico:** Aberração cromática dinâmica com suporte de cores automáticas baseadas no Estilo e na posição relativa da linha.
-* 🌊 **Onda Arco-Íris:** Onda cromática dinâmica com fatiamento milimétrico de 5ms.
+* 🌊 **Onda Arco-Íris:** Onda cromática dinâmica com fatiamento milimétrico de 40ms.
 * 🎵 **Karaoke Reverso:** Sistema de sumiço de sílabas automático com base nas divisões de karaoke (`\k`).
 * 📈 **Curvas [BETA]:** Suavização de movimento baseada em Curvas de Bézier (`\move`).
 
@@ -173,7 +173,7 @@ Learn more about how my automations work [here](https://github.com/yujifkw/Tensh
 Want to level up your subtitles? The **Exclusive** version automates complex effects that were previously only possible in heavy video editing software.
 
 * 📺 **Dynamic Glitch:** Dynamic chromatic aberration with automatic color support based on Style and relative line positioning.
-* 🌊 **Rainbow Wave:** Dynamic chromatic wave with ultra-precise 5ms temporal slicing.
+* 🌊 **Rainbow Wave:** Dynamic chromatic wave with ultra-precise 40ms temporal slicing.
 * 🎵 **Reverse Karaoke:** Automatic syllable disappearance system based on karaoke timings (`\k`).
 * 📈 **Curves [BETA]:** Movement smoothing/easing based on Cubic Bézier Curves (`\move`).
 
