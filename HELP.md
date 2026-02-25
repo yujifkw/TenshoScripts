@@ -45,7 +45,7 @@ Gera gradientes letra por letra com até 5 cores chave e interpolação avançad
       </td>
       <td align="center" width="50%">
         <strong>Gradient: Style Transition</strong><br>
-        <img src="ASSETS/gradient_sty_pt.png alt="GUI Gradient Styles">
+        <img src="ASSETS/gradient_sty_pt.png" alt="GUI Gradient Styles">
       </td>
     </tr>
   </table>
@@ -239,7 +239,7 @@ Generates letter-by-letter gradients with up to 5 key colors and advanced interp
       </td>
       <td align="center" width="50%">
         <strong>Gradient: Style Transition</strong><br>
-        <img src="ASSETS/gradient_sty_en.png alt="GUI Gradient Styles">
+        <img src="ASSETS/gradient_sty_en.png" alt="GUI Gradient Styles">
       </td>
     </tr>
   </table>
