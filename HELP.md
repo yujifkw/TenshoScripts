@@ -13,10 +13,11 @@ Bem-vindo à documentação técnica do **TenshoScripts**. Este toolkit foi proj
 
 ## 🛠️ Diferenciais Técnicos da Engine
 
+* **Preservação Estrutural Rigorosa:** O motor lê, protege e remonta as tags de posicionamento e tipografia (como `\pos`, `\an` e `\fs`) em cada fatia gerada. Isso garante que o layout original e o tamanho da sua legenda nunca sejam quebrados ou perdidos, independentemente da complexidade do efeito.
 * **Navegação em State Machine:** Transite entre ferramentas, painéis básicos e avançados de forma contínua usando o botão **"Voltar"**, sem duplicar processamento ou fechar o script.
 * **Blindagem UTF-8 (Anti-Crash):** Captura segura de caracteres de 1 a 4 bytes, eliminando o clássico *C++ Exception* ao fatiar letras acentuadas ou emojis.
 * **Motor de "Culling" e Limite de 40ms:** Ferramentas de fatiamento contínuo geram as fatias apenas onde a animação ocorre, envelopando o tempo inativo em "Linhas Clean" estáticas. Isso reduz o peso do arquivo `.ass` em até 80% e elimina travamentos no player de vídeo.
-* **Motor de Viagem no Tempo:** Fatiar uma linha normalmente quebra tags como `\fad` e `\t`. O TenshoScripts recalcula dinamicamente os tempos absolutos dessas tags para tempos relativos (suportando offsets negativos nativos do VSFilter), mantendo seus fades e blurs perfeitamente intactos nas fatias.
+* **Motor de Viagem no Tempo:** Fatiar uma linha normalmente quebra tags como `\fad` e `\t`. O TenshoScripts recalcula dinamicamente os tempos absolutos dessas tags para tempos relativos (suportando offsets negativos nativos do VSFilter), mantendo seus fades e cores perfeitamente intactos nas fatias.
 
 ---
 
