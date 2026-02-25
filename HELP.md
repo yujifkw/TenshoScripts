@@ -196,6 +196,16 @@ Substitui o engessado `\move` do Aegisub por interpolação de movimento via Eas
 
 ---
 
+<br />
+
+<div align="center">
+  <a href="https://ko-fi.com/s/5a3d4b8736">
+    <img src="https://img.shields.io/badge/Desbloquear_TenshoScripts_+-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" width="750">
+  </a>
+</div>
+
+<br />
+
 Desenvolvido por [Tensho](https://x.com/otenshy). Licença MIT.
 
 <br />
@@ -399,6 +409,16 @@ Replaces Aegisub's rigid `\move` tag with motion interpolation via Easing.
 * **Sub-Effects Preservation:** Slicing into dozens of pieces would break a fade-in. The Curves native engine converts all your global durations and throws them into localized negative times `\t(-offset, ...)` to keep color transitions and blurs completely untouched during the curve's flight!
 
 ---
+
+<br />
+
+<div align="center">
+  <a href="https://ko-fi.com/s/5a3d4b8736">
+    <img src="https://img.shields.io/badge/Unlock_TenshoScripts_+-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" width="750">
+  </a>
+</div>
+
+<br />
 
 Developed by [Tensho](https://x.com/otenshy). MIT License.
 
