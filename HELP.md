@@ -211,40 +211,42 @@ Desenvolvido por [Tensho](https://x.com/otenshy). Licença MIT.
   
 # 🐉 Official Documentation: TenshoScripts v1.0.3
 
-Welcome to the technical documentation for **TenshoScripts**. This toolkit was designed to push Aegisub to its limits, focusing on Motion Graphics automation for the **Nerdcore** and **AMV** scene, solving historical limitations found in other scripts.
+Welcome to the technical documentation of **TenshoScripts**. This toolkit was designed to push Aegisub to its absolute limits, focusing on Motion Graphics automation for the **Nerdcore** and **AMV** scene, solving historical limitations of other scripts.
 
 ---
 
-## 🛠️ Technical Differentials (Why use it?)
+## 🛠️ Engine's Core Technical Features
 
-* **Recursive Navigation:** We implemented a **"Back"** button in all GUIs. You can navigate between tools without closing and reopening the script from the automation menu.
-* **UTF-8 Shielding (Anti-Crash):** We use 1-to-4 byte capture patterns to process characters. This eliminates the **C++ Exception** error when slicing accented letters or special characters, a chronic issue in older slicing scripts.
-* **Layout Integrity:** All included tools detect your original alignment (`\an`) and position (`\pos`), maintaining the visual integrity of the line.
+* **Strict Structural Preservation:** The engine reads, protects, and rebuilds positioning and typographic tags (such as `\pos`, `\an`, and `\fs`) in every generated slice. This ensures your subtitle's original layout and size are never broken or lost, regardless of the effect's complexity.
+* **State Machine Navigation:** Seamlessly transition between tools, basic, and advanced panels using the **"Back"** button, without duplicating processing tasks or closing the script.
+* **UTF-8 Shielding (Anti-Crash):** Safe capture of 1 to 4-byte characters, completely eliminating the classic *C++ Exception* crash when slicing accented letters or emojis.
+* **"Culling" Engine & 40ms Limit:** Continuous slicing tools only generate slices where the animation actually occurs, wrapping the inactive time into static "Clean Lines". This reduces the `.ass` file weight by up to 80% and eliminates video player stuttering.
+* **Time Travel Engine:** Slicing a line usually breaks global tags like `\fad` and `\t`. TenshoScripts dynamically recalculates the absolute times of these tags into relative times (supporting VSFilter's native negative offsets), keeping your fades and colors perfectly intact across slices.
 
 ---
 
 ## 1. Adapted Fadeworks
-Applies complex visibility transitions in a simplified way, combining Alpha and Color.
+Applies complex visibility transitions in a simplified way, merging Alpha and Color.
 
 ![GUI Fadeworks](ASSETS/fadeworks_en.png)
 
 ### Parameters:
-* **Fade In/Out:** Duration in milliseconds or as a percentage of the line's duration (e.g., `Fade in: 0.4` will set the fade in duration to 40% of the total line time).
-* **Alpha/Colour:** Sets whether the effect affects only transparency or involves a color transition.
-* **From/To:** Start and end colors for the fade (e.g., starting from white and ending at the style's default color).
-* **By Letter:** Enables sequential character-by-character fading.
-* **Direction:** Choose between **LTR** (Left-to-Right), **RTL** (Right-to-Left), **Middle->Out**, or **Out->Middle**.
+* **Fade In/Out:** Input and output duration in milliseconds or relative percentage (`0.4` will fade over 40% of the line's time).
+* **Alpha/Colour:** Defines if the effect will only affect transparency or if there will be cross-color transitions.
+* **From/To:** Starting and ending fade colors.
+* **By Letter:** Activates character-by-character sequencing (with automatic purging of residual karaoke tags to prevent retextmod breakage).
+* **Direction:** Choose between `LTR` (Left-to-Right), `RTL` (Right-to-Left), `Mid->Out`, or `Out->Mid` (with perfect radial calculation for both even and odd character counts).
 
 ---
 
 ## 2. Easy Gradient (Multi-Point)
-Generates letter-by-letter gradients with up to 5 key colors and advanced interpolation, or automatically based on styles.
+Generates letter-by-letter gradients with up to 5 key colors and advanced interpolation, or automatically through Styles.
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Easy Gradient (Multi-Point)</strong><br>
+        <strong>Multi-Point Gradient</strong><br>
         <img src="ASSETS/gradient_en.png" alt="GUI Gradient">
       </td>
       <td align="center" width="50%">
@@ -256,139 +258,148 @@ Generates letter-by-letter gradients with up to 5 key colors and advanced interp
 </div>
 
 ### Parameters:
-* **HSL Interpolation:** Transitions colors through the Hue, Saturation, and Lightness spectrum, resulting in much more vibrant colors than standard RGB mode.
-* **Key Colors (1-5):** Defines the transition points. Enable intermediate colors for complex gradients.
-* **Target Checkboxes:** Allows selective gradient application to specific tags (`\c`, `\3c`, or `\4c`).
-* **Styles (A, B, C):** The script automatically reads all styles in your file. You can set a linear transition (A -> B) or a three-point transition (A -> C -> B).
-* **Full Interpolation:** Beyond colors, you can transition sizes (`\fs`), creating perspective or organic text growth effects.
+* **Interpolate HSL:** Transitions colors through the Hue, Saturation, and Lightness spectrum instead of RGB space, resulting in vibrant colors that don't pass through gray or muddy tones halfway.
+* **Key Colors (1-5):** Defines the stopping points. Enable mid-colors for ultra-complex gradients.
+* **Target Checkboxes:** Selectively apply the gradient only to specific tags (`\c`, `\3c`, or `\4c`).
+* **Styles (A, B, C):** Automatically reads your style table. Choose a linear transition (A -> B) or a 3-point anchored transition (A -> C -> B).
+* **Complete Interpolation:** Mathematically transitions colors, outlines (`\bord`), shadows (`\shad`), and font sizes (`\fs`), generating 3D perspective effects or organic text growth.
 
 ---
 
 ## 3. Flashes
-Ideal for syncing visual impact with the music beat.
+Ideal for synchronizing visual impact with the music beat.
 
 ![GUI Flashes](ASSETS/flashes_en.png)
 
 ### Parameters:
-* **Flash Color:** The color the subtitle takes during the flash peak.
-* **Interval (ms):** Sets the time between color swaps.
-* **Targets (\c, \3c, \4c):** Choose if the flash affects fill, border, or shadow independently.
+* **Flash Color:** The color the subtitle will assume during the peak (BPM).
+* **Interval (ms):** Defines the time between alternations.
+* **Smooth Transition:** When unchecked, makes hard cuts. When checked, creates a pulsing effect linking the flashes with `\t`.
 
 ---
 
 ## 4. Split Lines
-Divides lines into individual layers.
+Splits sentences into individual layers while maintaining strict original layout.
 
 ![GUI Split](ASSETS/split_en.png)
 
 ### Features:
-* **Modes:** Split by **Character** or **Word**.
-* **Vacuum Filter:** The script detects spaces and invisible characters, calculating their width to maintain the layout, but **does not create** empty lines in the grid.
-* **Tag Preservation:** Keeps the original line tags in every sliced piece.
+* **Modes:** Split by **Character** or by **Word**.
+* **Typographic Preservation:** Extracts and rebuilds global and local tags, including original `\fs` and horizontal anchor points.
+* **Whitespace Filter:** Detects spaces and calculates their metrics (`text_extents`) to maintain proper kerning, but prevents the creation of useless empty lines on the grid.
 
 ---
 
 ## 5. Transform (\t)
-A tool for quickly creating transformation animations without the need to type manual tags.
+Quick creation of temporal transition animations.
 
 ![GUI Transform](ASSETS/transform_en.png)
 
 ### Parameters:
-* **Interval (ms):** Sets the start and end time of the animation. The default end time is automatically filled with the line's duration.
-* **Color Targets:** Allows independent transformation of Primary (`\1c`), Secondary (`\2c`), Border (`\3c`), and Shadow (`\4c`) colors.
-* **Size and Alpha:** Animates font size variation (`\fs`) and global transparency (`\alpha`).
+* **Interval (ms):** Defines Start and End time (the end inherits the line duration by default).
+* **Color & Size Targets:** Allows simultaneous transitioning of `\1c`, `\2c`, `\3c`, `\4c`, font scale (`\fs`), and global opacity (`\alpha`).
 
 ---
 
-## 6. Random Font (Chaos)
-Creates an instability effect through the rapid oscillation of fonts and sizes.
+## 6. Text & Font FX
+A powerful integrated typographic motion engine. It replaces the old Random Fonts and encompasses 5 lettering manipulation tools with dynamic "clean line" generation.
 
-![GUI RandomFonts](ASSETS/textfx_en.png)
+![GUI TextFX](ASSETS/textfx_en.png)
 
-### Parameters:
-* **Switch Interval:** Sets the oscillation speed (Minimum of `40ms` to ensure stable rendering).
-* **Size Variation:** Defines a range (e.g., `5px`) for the font size to change randomly up or down.
-* **Character Mode:** When enabled, every letter in the sentence takes on a different font, generating a maximum distortion effect.
+### Available Effects:
+* **Random Fonts:** Randomly selects fonts from a predefined list. **Normalization Included:** Uses an invisible "X-Height" dictionary to correct font bounding boxes (e.g., *Lucida Console* gets a different scale so it doesn't "shrink" next to *Roboto*).
+* **Typewriter:** Reveals letters in sequence based on `ms/char`. 
+* **Unscramble:** Decryption (Hacking) effect. Before revealing the actual letter, it displays random symbols for 120ms.
+* **Chaos Symbols:** Text suffers continuous corruption over time (30% chance to turn into a corrupted character on each sliced frame).
+* **Invert Letters:** Replaces letters with their mirrored equivalents using Unicode code points. If **Horizontal (X)** or **Both (X+Y)** directions are chosen, the entire string is reordered backward (True Mirror).
+
+### The "Dynamic Jump" Magic (Center)
+By enabling **Dynamic Jump** in Typewriter or Unscramble, syllables that haven't been revealed yet are physically *deleted* from the line instead of just being hidden with alpha. If your line has central alignment (`\an5`, `\an8`, etc.), the entire sentence recalculates and "jumps" to the center with every new letter printed on the screen!
 
 ---
 
 ## 7. YtktFade
-Applies the invisible karaoke style optimized for the YouTube renderer.
+Compression optimizer for YouTube.
 
 ![GUI Ytkt](ASSETS/ytkt_en.png)
 
 ### Parameters:
-* **Enable \2c:** Defines a specific fill color for the moment a syllable is sung, ensuring better readability in the YouTube player.
+* **Constant Alpha:** Injects alphas that force web renderers (VP9/AV1) to maintain the karaoke's outline quality.
+* **Enable \2c:** Applies secondary fill colors.
 
 ---
 
-## 8. FixLines
-A position standardization tool based on proportional calculations.
+## 8. Fix Lines
+Position standardization via relative mathematical calculations.
 
 ![GUI FixLines](ASSETS/fix_en.png)
 
 ### Features:
-* **Force Alignment:** Allows you to apply or not apply `\an5` to the positioned lines.
-* **Smart Resolution:** Automatically detects video `PlayRes` and adjusts coordinates to remain identical across any resolution (e.g., 720p or 1080p).
+* **Force Alignment (\an5):** Overrides previous alignments and centers the anchor point.
+* **Delta Calculation:** Captures the actual video resolution (`PlayRes`) and positions subtitles in exact proportion. Perfect for migrating `1080p` `.ass` files to Shorts/TikTok (`1080x1920`) projects without breaking the layout.
 
 ---
 
 ## 9. Dynamic Glitch (Paid)
-Generates dynamic chromatic aberration with color channel separation.
+Advanced generator for static and animated chromatic aberration (RGB Split).
 
 ![GUI Glitch](ASSETS/glitch_en.png)
 
-### Parameters:
-* **Auto-Style:** Reads your style and automatically generates harmonized glitch colors.
-* **Offset (px):** Defines the "violence" of the effect (how far colors drift from the center).
-* **Random Pos (Chaos):** Generates random positions for a more organic and noisy glitch effect.
+### Technical Differentials:
+* **Typographic Flicker:** Enable "Bold" or "Italic" and the engine flips a coin (50% chance) on every frame generated per layer: the glitch will flicker with font weight breaks during the distortion, creating an extremely aggressive look.
+* **Chaos Mode (Random Pos):** Detaches the core anchor (`\c1`). While the edges shake on the X-axis, the core vibrates in random directions on the Y-axis.
+* **Execution Types:** Choose to slice the whole text ("Always") or generate corruption only at the **Start** or **End** of the line, optimizing the rest of the time with Culling.
+* **Karaoke Integration:** Generate glitches syllable by syllable (synced with native `\k` or ReverseK). 
+* **Center Karaoke:** Uses the same "Dynamic Jump" engineering from *Text FX* to force text centering while words appear in the glitch!
 
 ---
 
 ## 10. Rainbow Wave (Paid)
-Creates a rainbow color wave that flows through the text via temporal slicing.
+Creates radial chromatic pulses sweeping through the text without stacking overlapping layers in Aegisub.
 
 ![GUI Rainbow](ASSETS/rainbow_en.png)
 
 ### Parameters:
-* **Slicing (ms):** Sets smoothness. The **5ms** default creates a 200 "fps" fluid motion.
-* **Speed & Width:** Controls displacement speed and how wide the color transition is across the text.
+* **Use Style Color:** Instead of fixed RGB colors, you can select a secondary style. The engine will use the math of a **Sine Wave (`math.sin`)** to generate a soft "pulse" (perfect fade-in and fade-out), seamlessly replacing the current color with the style color.
+* **Shielded Step Logic:** Operates with a rigid lower limit of `40ms`, preventing the creation of millisecond sandwiches that would choke renderers.
+* **End-to-End Culling:** Calculates exactly where the wave finishes on the final letter and compresses all remaining seconds of the original subtitle into a single static line.
 
 ---
 
 ## 11. Reverse Karaoke (Paid)
-Inverts standard karaoke logic: text starts visible and disappears as the music plays.
+Inverts standard karaoke logic: the entire line is already sung on screen and *disappears* as the `\k` times hit.
 
-### How to Use:
-Perform the standard syllable division on the line (`\k`) and then run the automation.
-
-### Technical Advantage:
-Unlike simple macros that only apply alpha, TenshoScripts uses a synchronized layer-slicing system. This prevents the YouTube **flicker bug**, ensuring stable rendering on any device.
+### Technical Differential:
+Processed without the unstable use of cross-alpha `\t` tags. It scans the syllables and applies binary visibility states `\alpha&H00&` (current/future) and `\alpha&HFF&` (past), ensuring zero flicker bugs while preserving font size (`\fs`) and global positioning tags from the base line.
 
 ---
 
 ## 12. Curves (Paid) - BETA
-Replaces linear `\move` motion with professional acceleration and deceleration curves (Easing).
+Replaces Aegisub's rigid `\move` tag with motion interpolation via Easing.
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Curves (Beta Presets)</strong><br>
+        <strong>Basic Mode (Quad/Cubic)</strong><br>
         <img src="ASSETS/curves_en.png" alt="GUI Curves">
       </td>
       <td align="center" width="50%">
-        <strong>Curves: Advanced Bézier Editor</strong><br>
+        <strong>Advanced Bézier Mode</strong><br>
         <img src="ASSETS/curves_adv_en.png" alt="GUI Curves Advanced">
       </td>
     </tr>
   </table>
 </div>
 
-### Parameters:
-* **Ease Modes:** Classic presets like *Quad, Cubic*, and *Linear*.
-* **Bézier Control (Advanced):** "Flow" style curve editor, allowing coordinate influence point configuration for fully customized movements.
+### Easing Parameters:
+* **Use Cubic:** Quick checkbox to switch acceleration between Quadratic (`t * t`) and Cubic (`t ^ 3`) calculation, delivering a much stronger start-up burst.
+* **Standard CSS Modes:** The advanced panel includes industry presets like *Expo In*, *Expo Out*, *Back In-Out*, and *Back Out* (Perfect elastic motion).
+* **Bézier Vector Analysis:** Edit `x1, y1` and `x2, y2` coordinates identically to After Effects interpolation tools.
+* **Sub-Effects Preservation:** Slicing into dozens of pieces would break a fade-in. The Curves native engine converts all your global durations and throws them into localized negative times `\t(-offset, ...)` to keep color transitions and blurs completely untouched during the curve's flight!
 
 ---
 
 Developed by [Tensho](https://x.com/otenshy). MIT License.
+
+<br />
