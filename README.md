@@ -29,11 +29,11 @@
 | :--- | :--- |
 | **Fadeworks Adaptado** | Aplica fades (in/out) normais, por alpha/cor ou letra por letra (`LTR`, `RTL`, `Meio->Fora`, `Fora->Meio`). |
 | **Gradiente Fácil** | Gradientes horizontais calculados automaticamente letra por letra com até 5 cores chave ou automaticamente por Estilos. |
-| **Flashes** | Alternância rítmica de cores para impacto visual na batida. |
-| **Split Lines** | Divide frases em camadas individuais por caractere ou palavra. |
-| **Transform** |	Cria animações de transformação (`\t`) automáticas para cores (`\1c` a `\4c`), tamanho (`\fs`) e transparência (`\alpha`). |
-| **Random Font** |	Oscilação aleatória de fontes e tamanhos para efeitos de caos. |
-| **FixLines** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
+| **Piscadas** | Alternância rítmica de cores para impacto visual na batida. |
+| **Dividir Linhas** | Divide frases em camadas individuais por caractere ou palavra. |
+| **Transformar** |	Cria animações de transformação (`\t`) automáticas para cores (`\1c` a `\4c`), tamanho (`\fs`) e transparência (`\alpha`). |
+| **Texto & Fotnes FX** |	Oscilação aleatória de fontes e tamanhos para efeitos de caos. |
+| **Fixar Linhas** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
 | **YtktFade** | Aplique o karaokê invisível do YouTube com cor configurável (`\2c`) a multiplas linhas ao mesmo tempo. |
 
 Veja mais sobre como as minhas automações funcionam [aqui](https://github.com/yujifkw/TenshoScripts/blob/main/HELP.md).
@@ -44,10 +44,10 @@ Veja mais sobre como as minhas automações funcionam [aqui](https://github.com/
 
 Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efeitos complexos que antes só seriam possíveis em softwares de edição de vídeo pesados.
 
-* 📺 **Glitch:** Aberração cromática dinâmica com suporte de cores automáticas baseadas no Estilo e na posição relativa da linha.
-* 🌊 **Rainbow Wave:** Onda cromática dinâmica com fatiamento milimétrico de 5ms.
-* 🎵 **Reverse Karaoke:** Sistema de sumiço de sílabas automático com base nas divisões de karaoke (`\k`).
-* 📈 **Curves [BETA]:** Suavização de movimento baseada em Curvas de Bézier (`\move`).
+* 📺 **Glitch Dinâico:** Aberração cromática dinâmica com suporte de cores automáticas baseadas no Estilo e na posição relativa da linha.
+* 🌊 **Onda Arco-Íris:** Onda cromática dinâmica com fatiamento milimétrico de 5ms.
+* 🎵 **Karaoke Reverso:** Sistema de sumiço de sílabas automático com base nas divisões de karaoke (`\k`).
+* 📈 **Curvas [BETA]:** Suavização de movimento baseada em Curvas de Bézier (`\move`).
 
 👉 **[Adquira a versão Exclusive no meu Ko-fi](https://ko-fi.com/s/5a3d4b8736)**
 
@@ -62,24 +62,24 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
       <td align="center" width="50%"><strong>2. Gradiente Fácil</strong><br><img src="ASSETS/gradient2.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="ASSETS/flashes.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="ASSETS/split.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>3. Piscadas</strong><br><img src="ASSETS/flashes.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>4. Dividir Linhas</strong><br><img src="ASSETS/split.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>5. Transform</strong><br><img src="ASSETS/transform.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>6. Random Fonts</strong><br><img src="ASSETS/randomfont.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>5. Transformar</strong><br><img src="ASSETS/transform.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>6. Texto & Fontes FX</strong><br><img src="ASSETS/randomfont.gif" width="100%"></td>
     </tr>
     <tr>
       <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="ASSETS/ytktfade.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="ASSETS/fixlines.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>8. Fixar Linhas</strong><br><img src="ASSETS/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
       <td align="center" width="50%"><strong>9. Glitch Dinâmico (Pago)</strong><br><img src="ASSETS/glitch2.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>10. Rainbow Wave (Pago)</strong><br><img src="ASSETS/rainbow.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>10. Onda Arco-Íris (Pago)</strong><br><img src="ASSETS/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>11. Reverse Karaoke (Pago)</strong><br><img src="ASSETS/reversek.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>12. Curves (Pago)</strong><br><img src="ASSETS/curves_loop.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>11. Karaoke Reverso (Pago)</strong><br><img src="ASSETS/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>12. Curvas (Pago) - BETA</strong><br><img src="ASSETS/curves_loop.gif" width="100%"></td>
     </tr>
   </table>
   <p>Recarregue a página caso os GIFs congelem.</p>
@@ -112,6 +112,10 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 <div align="center">
   <p>Feito com ❤️ por <strong><a href="https://x.com/otenshy">Tensho</a></strong></p>
 </div>
+
+<br />
+<br />
+<br />
 
 <h1 id="-english"></h1>
 
@@ -148,7 +152,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 | **Flashes** | Rhythmic color alternation for visual impact synced to the beat. |
 | **Split Lines** | Divides sentences into individual character or word layers. |
 | **Transform** | Creates automatic transformation animations (`\t`) for colors (`\1c` to `\4c`), size (`\fs`), and transparency (`\alpha`). |
-| **Random Font** | Random oscillation of fonts and sizes for chaotic effects. |
+| **Text & Fonts FX** | Random oscillation of fonts and sizes for chaotic effects. |
 | **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom screen placement. |
 | **YtktFade** | Apply the invisible YouTube karaoke effect with configurable color (`\2c`) to multiple lines at the same time. |
 
@@ -160,7 +164,7 @@ Learn more about how my automations work [here](https://github.com/yujifkw/Tensh
 
 Want to level up your subtitles? The **Exclusive** version automates complex effects that were previously only possible in heavy video editing software.
 
-* 📺 **Glitch:** Dynamic chromatic aberration with automatic color support based on Style and relative line positioning.
+* 📺 **Dynamic Glitch:** Dynamic chromatic aberration with automatic color support based on Style and relative line positioning.
 * 🌊 **Rainbow Wave:** Dynamic chromatic wave with ultra-precise 5ms temporal slicing.
 * 🎵 **Reverse Karaoke:** Automatic syllable disappearance system based on karaoke timings (`\k`).
 * 📈 **Curves [BETA]:** Movement smoothing/easing based on Cubic Bézier Curves (`\move`).
@@ -195,7 +199,7 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
     </tr>
     <tr>
       <td align="center" width="50%"><strong>11. Reverse Karaoke (Paid)</strong><br><img src="ASSETS/reversek.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>12. Curves (Paid)</strong><br><img src="ASSETS/curves_loop.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>12. Curves (Paid) - BETA</strong><br><img src="ASSETS/curves_loop.gif" width="100%"></td>
     </tr>
   </table>
   <p>Reload the page if the GIFs freeze.</p>
