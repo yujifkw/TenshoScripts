@@ -15,7 +15,7 @@
   
   <br />
 
-  <a href="https://github.com/yujifkw/TenshoScripts/releases/">
+  <a href="https://github.com/yujifkw/TenshoScripts/releases/latest">
     <img src="https://img.shields.io/badge/⬇️%20BAIXAR%20AGORA-PÁGINA%20DE%20RELEASES-success?style=for-the-badge&logo=lua" height="50">
   </a>
   
@@ -143,7 +143,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
   
   <br />
 
-  <a href="https://github.com/yujifkw/TenshoScripts/releases/">
+  <a href="https://github.com/yujifkw/TenshoScripts/releases/latest">
     <img src="https://img.shields.io/badge/⬇️%20DOWNLOAD%20NOW-RELEASES%20PAGE-success?style=for-the-badge&logo=lua" height="50">
   </a>
   
