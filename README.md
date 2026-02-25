@@ -32,7 +32,7 @@
 | **Piscadas** | Alternância rítmica de cores para impacto visual na batida. |
 | **Dividir Linhas** | Divide frases em camadas individuais por caractere ou palavra. |
 | **Transformar** |	Cria animações de transformação (`\t`) automáticas para cores (`\1c` a `\4c`), tamanho (`\fs`) e transparência (`\alpha`). |
-| **Texto & Fotnes FX** |	Oscilação aleatória de fontes e tamanhos para efeitos de caos. |
+| **Texto & Fotnes FX** |	Suíte de motion tipográfico com 5 efeitos integrados: Typewriter, Embaralhar (Hacking), Inversão Espelhada, Caos de Símbolos e Variação de Fontes, com suporte a centralização dinâmica. |
 | **Fixar Linhas** | Posicionamento rápido (`\an5`) em Topo, Meio ou Baixo. |
 | **YtktFade** | Aplique o karaokê invisível do YouTube com cor configurável (`\2c`) a multiplas linhas ao mesmo tempo. |
 
@@ -152,7 +152,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais de
 | **Flashes** | Rhythmic color alternation for visual impact synced to the beat. |
 | **Split Lines** | Divides sentences into individual character or word layers. |
 | **Transform** | Creates automatic transformation animations (`\t`) for colors (`\1c` to `\4c`), size (`\fs`), and transparency (`\alpha`). |
-| **Text & Fonts FX** | Random oscillation of fonts and sizes for chaotic effects. |
+| **Text & Fonts FX** | A typographic motion suite with 5 integrated effects: Typewriter, Shuffle (Hacking), Mirror Inversion, Symbol Chaos, and Font Variation, with support for dynamic centering. |
 | **FixLines** | Quick `\an5` positioning for Top, Middle, or Bottom screen placement. |
 | **YtktFade** | Apply the invisible YouTube karaoke effect with configurable color (`\2c`) to multiple lines at the same time. |
 
