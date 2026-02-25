@@ -49,7 +49,15 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 * 🎵 **Karaoke Reverso:** Sistema de sumiço de sílabas automático com base nas divisões de karaoke (`\k`).
 * 📈 **Curvas [BETA]:** Suavização de movimento baseada em Curvas de Bézier (`\move`).
 
-👉 **[Adquira a versão Paga no meu Ko-fi](https://ko-fi.com/s/5a3d4b8736)**
+<br>
+
+<div align="center">
+  <a href="https://ko-fi.com/s/5a3d4b8736">
+    <img src="https://img.shields.io/badge/💎_Desbloquear_TenshoScripts_+-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi">
+  </a>
+</div>
+
+<br>
 
 ---
 
@@ -169,7 +177,15 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
 * 🎵 **Reverse Karaoke:** Automatic syllable disappearance system based on karaoke timings (`\k`).
 * 📈 **Curves [BETA]:** Movement smoothing/easing based on Cubic Bézier Curves (`\move`).
 
-👉 **[Get the Exclusive version on my Ko-fi](https://ko-fi.com/s/5a3d4b8736)**
+<br>
+
+<div align="center">
+  <a href="https://ko-fi.com/s/5a3d4b8736">
+    <img src="https://img.shields.io/badge/💎_Get_TenshoScripts_+-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi">
+  </a>
+</div>
+
+<br>
 
 ---
 
