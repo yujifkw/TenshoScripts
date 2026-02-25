@@ -74,7 +74,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
       <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="ASSETS/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Glitch Dinâmico (Pago)</strong><br><img src="ASSETS/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Glitch Dinâmico (Pago)</strong><br><img src="ASSETS/glitch2.gif" width="100%"></td>
       <td align="center" width="50%"><strong>10. Rainbow Wave (Pago)</strong><br><img src="ASSETS/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
@@ -190,7 +190,7 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
       <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="ASSETS/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Dynamic Glitch (Paid)</strong><br><img src="ASSETS/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Dynamic Glitch (Paid)</strong><br><img src="ASSETS/glitch2.gif" width="100%"></td>
       <td align="center" width="50%"><strong>10. Rainbow Wave (Paid)</strong><br><img src="ASSETS/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
