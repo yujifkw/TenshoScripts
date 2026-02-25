@@ -53,7 +53,7 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 
 <div align="center">
   <a href="https://ko-fi.com/s/5a3d4b8736">
-    <img src="https://img.shields.io/badge/💎_Desbloquear_TenshoScripts_+-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi">
+    <img src="https://img.shields.io/badge/Desbloquear_TenshoScripts_+-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" width="750">
   </a>
 </div>
 
@@ -181,7 +181,7 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
 
 <div align="center">
   <a href="https://ko-fi.com/s/5a3d4b8736">
-    <img src="https://img.shields.io/badge/💎_Get_TenshoScripts_+-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi">
+    <img src="https://img.shields.io/badge/Unlock_TenshoScripts_+-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" width="750">
   </a>
 </div>
 
