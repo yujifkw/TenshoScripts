@@ -58,28 +58,28 @@ Deseja elevar o nível das suas legendas? A versão **Exclusive** automatiza efe
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="50%"><strong>1. Fadeworks Adaptado</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>2. Gradiente Fácil</strong><br><img src="assets/gradient2.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>1. Fadeworks Adaptado</strong><br><img src="ASSETS/fadeworks.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Gradiente Fácil</strong><br><img src="ASSETS/gradient2.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="ASSETS/flashes.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="ASSETS/split.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>5. Transform</strong><br><img src="assets/transform.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>6. Random Fonts</strong><br><img src="assets/randomfont.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>5. Transform</strong><br><img src="ASSETS/transform.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>6. Random Fonts</strong><br><img src="ASSETS/randomfont.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="ASSETS/ytktfade.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="ASSETS/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Glitch Dinâmico (Pago)</strong><br><img src="assets/glitch.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>10. Rainbow Wave (Pago)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Glitch Dinâmico (Pago)</strong><br><img src="ASSETS/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>10. Rainbow Wave (Pago)</strong><br><img src="ASSETS/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>11. Reverse Karaoke (Pago)</strong><br><img src="assets/reversek.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>12. Curves (Pago)</strong><br><img src="assets/curves_loop.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>11. Reverse Karaoke (Pago)</strong><br><img src="ASSETS/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>12. Curves (Pago)</strong><br><img src="ASSETS/curves_loop.gif" width="100%"></td>
     </tr>
   </table>
   <p>Recarregue a página caso os GIFs congelem.</p>
@@ -174,28 +174,28 @@ Want to level up your subtitles? The **Exclusive** version automates complex eff
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="50%"><strong>1. Adapted Fadeworks</strong><br><img src="assets/fadeworks.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>2. Easy Gradient</strong><br><img src="assets/gradient2.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>1. Adapted Fadeworks</strong><br><img src="ASSETS/fadeworks.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>2. Easy Gradient</strong><br><img src="ASSETS/gradient2.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="assets/flashes.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="assets/split.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>3. Flashes</strong><br><img src="ASSETS/flashes.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>4. Split Lines</strong><br><img src="ASSETS/split.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>5. Transform</strong><br><img src="assets/transform.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>6. Random Fonts</strong><br><img src="assets/randomfont.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>5. Transform</strong><br><img src="ASSETS/transform.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>6. Random Fonts</strong><br><img src="ASSETS/randomfont.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="assets/ytktfade.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="assets/fixlines.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>7. YtktFade (YouTube)</strong><br><img src="ASSETS/ytktfade.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>8. FixLines</strong><br><img src="ASSETS/fixlines.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>9. Dynamic Glitch (Paid)</strong><br><img src="assets/glitch.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>10. Rainbow Wave (Paid)</strong><br><img src="assets/rainbow.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>9. Dynamic Glitch (Paid)</strong><br><img src="ASSETS/glitch.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>10. Rainbow Wave (Paid)</strong><br><img src="ASSETS/rainbow.gif" width="100%"></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><strong>11. Reverse Karaoke (Paid)</strong><br><img src="assets/reversek.gif" width="100%"></td>
-      <td align="center" width="50%"><strong>12. Curves (Paid)</strong><br><img src="assets/curves_loop.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>11. Reverse Karaoke (Paid)</strong><br><img src="ASSETS/reversek.gif" width="100%"></td>
+      <td align="center" width="50%"><strong>12. Curves (Paid)</strong><br><img src="ASSETS/curves_loop.gif" width="100%"></td>
     </tr>
   </table>
   <p>Reload the page if the GIFs freeze.</p>
