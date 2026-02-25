@@ -5,7 +5,7 @@
   </a>
 </div>
 
-# 🐉 Documentação Oficial: TenshoScripts v1.0.1
+# 🐉 Documentação Oficial: TenshoScripts v1.0.3
 
 Bem-vindo à documentação técnica do **TenshoScripts**. Este toolkit foi projetado para levar o Aegisub ao limite, focando em automações de Motion Graphics para a cena **Nerdcore** e **AMVs**, resolvendo limitações históricas de outros scripts.
 
@@ -40,11 +40,11 @@ Gera gradientes letra por letra com até 5 cores chave e interpolação avançad
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Easy Gradient (Multi-Ponto)</strong><br>
+        <strong>Gradiente Fácil (Multi-Ponto)</strong><br>
         <img src="ASSETS/gradient_pt.png" alt="GUI Gradient">
       </td>
       <td align="center" width="50%">
-        <strong>Gradient: Style Transition</strong><br>
+        <strong>Transição de Estilo</strong><br>
         <img src="ASSETS/gradient_sty_pt.png" alt="GUI Gradient Styles">
       </td>
     </tr>
@@ -68,7 +68,7 @@ Ideal para sincronizar o impacto visual com a batida da música.
 ### Parâmetros:
 * **Cor do Flash:** Cor que a legenda assumirá durante o pico do flash.
 * **Intervalo (ms):** Define o tempo entre as trocas de cor.
-* **Alvos (\c, \3c, \4c):** Escolha se o flash afeta o preenchimento, a borda ou a sombra de forma independente.
+* **Alvos (`\c`, `\2c`, `\3c`, `\4c`):** Escolha se o flash afeta o preenchimento, a borda ou a sombra de forma independente.
 
 ---
 
@@ -96,7 +96,7 @@ Ferramenta para criação rápida de animações de transformação sem necessid
 
 ---
 
-## 6. Random Font (Caos)
+## 6. Texto & Fontes FX
 Cria um efeito de instabilidade através da oscilação rápida de fontes e tamanhos.
 
 ![GUI RandomFonts](ASSETS/textfx_pt.png)
@@ -140,7 +140,7 @@ Gera uma aberração cromática dinâmica com separação de canais de cor.
 
 ---
 
-## 10. Rainbow Wave (Pago)
+## 10. Onda Arco-Íris (Pago)
 Cria uma onda de cores arco-íris que flui pelo texto através de fatiamento temporal.
 
 ![GUI Rainbow](ASSETS/rainbow_pt.png)
@@ -151,7 +151,7 @@ Cria uma onda de cores arco-íris que flui pelo texto através de fatiamento tem
 
 ---
 
-## 11. Reverse Karaoke (Pago)
+## 11. Karaoke Reverso (Pago)
 Inverte a lógica do karaokê comum: o texto começa visível e desaparece conforme a música toca.
 
 ### Como Usar:
@@ -162,18 +162,18 @@ Diferente de macros simples que apenas aplicam alpha, o TenshoScripts utiliza um
 
 ---
 
-## 12. Curves (Pago) - BETA
+## 12. Curvas (Pago) - BETA
 Substitui o movimento linear do `\move` por curvas de aceleração e desaceleração (Easing).
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Curves (Presets Beta)</strong><br>
+        <strong>Curvas (Presets Beta)</strong><br>
         <img src="ASSETS/curves_pt.png" alt="GUI Curves">
       </td>
       <td align="center" width="50%">
-        <strong>Curves: Advanced Bézier Editor</strong><br>
+        <strong>Curvas: Editor Bézier</strong><br>
         <img src="ASSETS/curves_adv_pt.png" alt="GUI Curves Advanced">
       </td>
     </tr>
@@ -199,7 +199,7 @@ Desenvolvido por [Tensho](https://x.com/otenshy). Licença MIT.
     <img src="https://img.shields.io/badge/Lang-Português-green?style=for-the-badge&logo=brazil" alt="Português">
   </a>
   
-# 🐉 Official Documentation: TenshoScripts v1.0.1
+# 🐉 Official Documentation: TenshoScripts v1.0.3
 
 Welcome to the technical documentation for **TenshoScripts**. This toolkit was designed to push Aegisub to its limits, focusing on Motion Graphics automation for the **Nerdcore** and **AMV** scene, solving historical limitations found in other scripts.
 
