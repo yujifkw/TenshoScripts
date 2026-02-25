@@ -61,7 +61,7 @@ Gera gradientes letra por letra com até 5 cores chave e interpolação avançad
 
 ---
 
-## 3. Flashes
+## 3. Piscadas
 Ideal para sincronizar o impacto visual com a batida da música.
 
 ![GUI Flashes](ASSETS/flashes_pt.png)
@@ -73,7 +73,7 @@ Ideal para sincronizar o impacto visual com a batida da música.
 
 ---
 
-## 4. Split Lines
+## 4. Dividir Linhas
 Divide frases em camadas individuais mantendo o layout original estrito.
 
 ![GUI Split](ASSETS/split_pt.png)
@@ -85,7 +85,7 @@ Divide frases em camadas individuais mantendo o layout original estrito.
 
 ---
 
-## 5. Transform (\t)
+## 5. Transformar (\t)
 Criação rápida de animações de transição temporal.
 
 ![GUI Transform](ASSETS/transform_pt.png)
@@ -124,7 +124,7 @@ Otimizador de compressão para YouTube.
 
 ---
 
-## 8. FixLines
+## 8. Fixar Linhas
 Padronização de posição por cálculos matemáticos relativos.
 
 ![GUI FixLines](ASSETS/fix_pt.png)
